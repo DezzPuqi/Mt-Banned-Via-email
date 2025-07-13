@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dezz MT</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: sans-serif;
+      background-color: #000;
+    }
+
+    #notif {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #0d1117;
+      color: #58a6ff;
+      padding: 12px 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+      z-index: 9999;
+      cursor: pointer;
+      max-width: 90%;
+      width: 95%;
+      max-width: 600px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 15px;
+      text-decoration: none;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    #notif:hover {
+      background-color: #161b22;
+    }
+
+    #notif .close-btn {
+      background: none;
+      border: none;
+      color: #aaa;
+      font-size: 16px;
+      cursor: pointer;
+      padding: 0;
+      margin-left: 10px;
+    }
+
+    iframe {
+      border: none;
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+
+  <a id="notif" href="https://whatsapp.com/channel/0029Vb5fjpCHwXb7bmxcO50i" target="_blank">
+    <span>📢 Klik di sini untuk info terbaru tentang <strong>MT BANNED Dezz</strong></span>
+    <button class="close-btn" onclick="event.stopPropagation(); event.preventDefault(); document.getElementById('notif').style.display='none';">✕</button>
+  </a>
+
+  <iframe src="https://mtbanned-bydezz.netlify.app/dashboard.html" allowfullscreen></iframe>
+
+  <script>
+    const notif = document.getElementById('notif');
+    let startX, startY, moved = false;
+
+    notif.addEventListener('touchstart', function(e) {
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
+      moved = false;
+    });
+
+    notif.addEventListener('touchmove', function(e) {
+      const dx = e.touches[0].clientX - startX;
+      const dy = e.touches[0].clientY - startY;
+      if (Math.abs(dx) > 20 || Math.abs(dy) > 20) {
+        moved = true;
+        notif.style.transform = `translate(${dx}px, ${dy}px)`;
+        notif.style.opacity = '0.8';
+      }
+    });
+
+    notif.addEventListener('touchend', function(e) {
+      if (moved) {
+        notif.style.transition = 'all 0.3s ease';
+        notif.style.opacity = '0';
+        notif.style.transform = 'translateY(-100px)';
+        setTimeout(() => notif.style.display = 'none', 300);
+      } else {
+        notif.style.transform = 'translateX(-50%)';
+        notif.style.opacity = '1';
+      }
+    });
+
+    // Mouse (desktop)
+    notif.addEventListener('mousedown', function(e) {
+      startX = e.clientX;
+      startY = e.clientY;
+      moved = false;
+
+      function mouseMove(ev) {
+        const dx = ev.clientX - startX;
+        const dy = ev.clientY - startY;
+        if (Math.abs(dx) > 20 || Math.abs(dy) > 20) {
+          moved = true;
+          notif.style.transform = `translate(${dx}px, ${dy}px)`;
+          notif.style.opacity = '0.8';
+        }
+      }
+
+      function mouseUp() {
+        if (moved) {
+          notif.style.transition = 'all 0.3s ease';
+          notif.style.opacity = '0';
+          notif.style.transform = 'translateY(-100px)';
+          setTimeout(() => notif.style.display = 'none', 300);
+        } else {
+          notif.style.transform = 'translateX(-50%)';
+          notif.style.opacity = '1';
+        }
+        document.removeEventListener('mousemove', mouseMove);
+        document.removeEventListener('mouseup', mouseUp);
+      }
+
+      document.addEventListener('mousemove', mouseMove);
+      document.addEventListener('mouseup', mouseUp);
+    });
+  </script>
+
+</body>
+</html>
