@@ -1,0 +1,614 @@
+{
+"en": {
+  "language_name": "English",
+  "title": "Request Unban WhatsApp Number",
+  "your_name": "Your Name",
+  "number_to_unban": "Number to Unban (+62...)",
+  "reason_for_unban": "Reason for Unban",
+  "submit": "Send Request",
+  "email_subject": "Request to Unban WhatsApp Number",
+  "email_body": "Hello WhatsApp Team,\n\nI would like to request an unban for my WhatsApp number.",
+  "unban_number": "Phone Number",
+  "regards": "Best regards",
+  "reasons": {
+    "mistake": "My number was banned by mistake.",
+    "spam": "I was falsely reported for spam.",
+    "terms": "I did not violate any WhatsApp terms.",
+    "other": "Other (please review manually)."
+  }
+},
+"id": {
+  "language_name": "Bahasa Indonesia",
+  "title": "Permintaan Unban Nomor WhatsApp",
+  "your_name": "Nama Anda",
+  "number_to_unban": "Nomor yang Diblokir (+62...)",
+  "reason_for_unban": "Alasan Unban",
+  "submit": "Kirim Permintaan",
+  "email_subject": "Permintaan Pembukaan Blokir Nomor WhatsApp",
+  "email_body": "Halo Tim WhatsApp,\n\nSaya ingin mengajukan permintaan unban untuk nomor WhatsApp saya.",
+  "unban_number": "Nomor Telepon",
+  "regards": "Hormat saya",
+  "reasons": {
+    "mistake": "Nomor saya diblokir secara tidak sengaja.",
+    "spam": "Saya dilaporkan spam secara keliru.",
+    "terms": "Saya tidak melanggar ketentuan layanan WhatsApp.",
+    "other": "Lainnya (mohon tinjau secara manual)."
+  }
+},
+"es": {
+  "language_name": "Español",
+  "title": "Solicitar Desbloqueo de Número de WhatsApp",
+  "your_name": "Tu Nombre",
+  "number_to_unban": "Número para Desbloquear (+62...)",
+  "reason_for_unban": "Razón del Desbloqueo",
+  "submit": "Enviar Solicitud",
+  "email_subject": "Solicitud de Desbloqueo de Número de WhatsApp",
+  "email_body": "Hola equipo de WhatsApp,\n\nQuiero solicitar el desbloqueo de mi número de WhatsApp.",
+  "unban_number": "Número de Teléfono",
+  "regards": "Saludos cordiales",
+  "reasons": {
+    "mistake": "Mi número fue bloqueado por error.",
+    "spam": "Fui reportado falsamente como spam.",
+    "terms": "No violé ninguna norma de WhatsApp.",
+    "other": "Otro (por favor revisen manualmente)."
+  }
+},
+"fr": {
+  "language_name": "Français",
+  "title": "Demande de Déblocage de Numéro WhatsApp",
+  "your_name": "Votre Nom",
+  "number_to_unban": "Numéro à Débloquer (+62...)",
+  "reason_for_unban": "Raison du Déblocage",
+  "submit": "Envoyer la Demande",
+  "email_subject": "Demande de Déblocage du Numéro WhatsApp",
+  "email_body": "Bonjour l'équipe WhatsApp,\n\nJe souhaite demander le déblocage de mon numéro WhatsApp.",
+  "unban_number": "Numéro de Téléphone",
+  "regards": "Cordialement",
+  "reasons": {
+    "mistake": "Mon numéro a été bloqué par erreur.",
+    "spam": "J'ai été signalé à tort comme spam.",
+    "terms": "Je n'ai violé aucune condition de WhatsApp.",
+    "other": "Autre (veuillez vérifier manuellement)."
+  }
+},
+"de": {
+  "language_name": "Deutsch",
+  "title": "Anfrage zur Entsperrung der WhatsApp-Nummer",
+  "your_name": "Ihr Name",
+  "number_to_unban": "Nummer zum Entsperren (+62...)",
+  "reason_for_unban": "Grund für die Entsperrung",
+  "submit": "Anfrage senden",
+  "email_subject": "Anfrage zur Entsperrung der WhatsApp-Nummer",
+  "email_body": "Hallo WhatsApp-Team,\n\nIch möchte die Entsperrung meiner WhatsApp-Nummer beantragen.",
+  "unban_number": "Telefonnummer",
+  "regards": "Mit freundlichen Grüßen",
+  "reasons": {
+    "mistake": "Meine Nummer wurde fälschlicherweise gesperrt.",
+    "spam": "Ich wurde fälschlich als Spam gemeldet.",
+    "terms": "Ich habe keine WhatsApp-Richtlinien verletzt.",
+    "other": "Sonstiges (bitte manuell prüfen)."
+  }
+},
+"pt": {
+  "language_name": "Português",
+  "title": "Solicitar Desbloqueio de Número do WhatsApp",
+  "your_name": "Seu Nome",
+  "number_to_unban": "Número para Desbloquear (+62...)",
+  "reason_for_unban": "Motivo do Desbloqueio",
+  "submit": "Enviar Solicitação",
+  "email_subject": "Solicitação de Desbloqueio do Número do WhatsApp",
+  "email_body": "Olá equipe do WhatsApp,\n\nGostaria de solicitar o desbloqueio do meu número do WhatsApp.",
+  "unban_number": "Número de Telefone",
+  "regards": "Atenciosamente",
+  "reasons": {
+    "mistake": "Meu número foi bloqueado por engano.",
+    "spam": "Fui falsamente denunciado como spam.",
+    "terms": "Não violei os termos do WhatsApp.",
+    "other": "Outro (por favor, revise manualmente)."
+  }
+},
+"ar": {
+  "language_name": "العربية",
+  "title": "طلب رفع الحظر عن رقم واتساب",
+  "your_name": "اسمك",
+  "number_to_unban": "الرقم المراد رفع الحظر عنه (+62...)",
+  "reason_for_unban": "سبب رفع الحظر",
+  "submit": "إرسال الطلب",
+  "email_subject": "طلب رفع الحظر عن رقم واتساب",
+  "email_body": "مرحبًا فريق واتساب،\n\nأرغب في طلب رفع الحظر عن رقمي على واتساب.",
+  "unban_number": "رقم الهاتف",
+  "regards": "مع التحية",
+  "reasons": {
+    "mistake": "تم حظر رقمي عن طريق الخطأ.",
+    "spam": "تم الإبلاغ عني كرسائل مزعجة عن طريق الخطأ.",
+    "terms": "لم أخالف شروط واتساب.",
+    "other": "أخرى (يرجى المراجعة يدويًا)."
+  }
+},
+"hi": {
+  "language_name": "हिन्दी",
+  "title": "WhatsApp नंबर को अनबैन करने का अनुरोध",
+  "your_name": "आपका नाम",
+  "number_to_unban": "अनबैन करने के लिए नंबर (+62...)",
+  "reason_for_unban": "अनबैन का कारण",
+  "submit": "अनुरोध भेजें",
+  "email_subject": "WhatsApp नंबर को अनबैन करने का अनुरोध",
+  "email_body": "नमस्ते WhatsApp टीम,\n\nमैं अपने WhatsApp नंबर को अनबैन कराने का अनुरोध करता हूँ।",
+  "unban_number": "फोन नंबर",
+  "regards": "सादर",
+  "reasons": {
+    "mistake": "मेरा नंबर गलती से बैन कर दिया गया है।",
+    "spam": "मुझे झूठा स्पैम के रूप में रिपोर्ट किया गया।",
+    "terms": "मैंने कोई नियम नहीं तोड़ा है।",
+    "other": "अन्य (कृपया मैन्युअल जांच करें)।"
+  }
+},
+"ru": {
+  "language_name": "Русский",
+  "title": "Запрос на разблокировку номера WhatsApp",
+  "your_name": "Ваше имя",
+  "number_to_unban": "Номер для разблокировки (+62...)",
+  "reason_for_unban": "Причина разблокировки",
+  "submit": "Отправить запрос",
+  "email_subject": "Запрос на разблокировку номера WhatsApp",
+  "email_body": "Здравствуйте, команда WhatsApp,\n\nЯ хочу подать запрос на разблокировку моего номера в WhatsApp.",
+  "unban_number": "Номер телефона",
+  "regards": "С уважением",
+  "reasons": {
+    "mistake": "Мой номер был заблокирован по ошибке.",
+    "spam": "Меня ошибочно сообщили как спам.",
+    "terms": "Я не нарушал условий WhatsApp.",
+    "other": "Другое (пожалуйста, проверьте вручную)."
+  }
+},
+"jp": {
+  "language_name": "日本語",
+  "title": "WhatsApp番号のブロック解除リクエスト",
+  "your_name": "お名前",
+  "number_to_unban": "ブロック解除する番号 (+62...)",
+  "reason_for_unban": "解除理由",
+  "submit": "リクエストを送信",
+  "email_subject": "WhatsApp番号のブロック解除リクエスト",
+  "email_body": "WhatsAppチームの皆様へ、\n\n私のWhatsApp番号のブロック解除をお願いしたいです。",
+  "unban_number": "電話番号",
+  "regards": "よろしくお願いします",
+  "reasons": {
+    "mistake": "誤ってブロックされました。",
+    "spam": "誤ってスパムと報告されました。",
+    "terms": "WhatsAppの規約には違反していません。",
+    "other": "その他（手動で確認してください）。"
+  }
+},
+"ko": {
+  "language_name": "한국어",
+  "title": "WhatsApp 번호 차단 해제 요청",
+  "your_name": "이름",
+  "number_to_unban": "차단 해제할 번호 (+62...)",
+  "reason_for_unban": "차단 해제 사유",
+  "submit": "요청 보내기",
+  "email_subject": "WhatsApp 번호 차단 해제 요청",
+  "email_body": "안녕하세요 WhatsApp팀,\n\n제 WhatsApp 번호 차단 해제를 요청합니다.",
+  "unban_number": "전화번호",
+  "regards": "감사합니다",
+  "reasons": {
+    "mistake": "제 번호가 실수로 차단되었습니다.",
+    "spam": "스팸으로 잘못 신고되었습니다.",
+    "terms": "WhatsApp 이용약관을 위반하지 않았습니다.",
+    "other": "기타 (수동 검토 부탁드립니다)."
+  }
+},
+"bn": {
+  "language_name": "বাংলা",
+  "title": "WhatsApp নম্বর আনব্যান অনুরোধ",
+  "your_name": "আপনার নাম",
+  "number_to_unban": "আনব্যান করার নম্বর (+62...)",
+  "reason_for_unban": "আনব্যানের কারণ",
+  "submit": "অনুরোধ পাঠান",
+  "email_subject": "WhatsApp নম্বর আনব্যানের অনুরোধ",
+  "email_body": "হ্যালো WhatsApp টিম,\n\nআমি আমার WhatsApp নম্বর আনব্যানের অনুরোধ করছি।",
+  "unban_number": "ফোন নম্বর",
+  "regards": "শুভেচ্ছা সহ",
+  "reasons": {
+    "mistake": "ভুলবশত আমার নম্বর ব্লক করা হয়েছে।",
+    "spam": "আমাকে ভুলভাবে স্প্যাম করা হয়েছে বলে রিপোর্ট করা হয়েছে।",
+    "terms": "আমি কোন নিয়ম ভঙ্গ করিনি।",
+    "other": "অন্যান্য (ম্যানুয়ালি যাচাই করুন)।"
+  }
+},
+"vi": {
+  "language_name": "Tiếng Việt",
+  "title": "Yêu cầu mở khóa số WhatsApp",
+  "your_name": "Tên của bạn",
+  "number_to_unban": "Số cần mở khóa (+62...)",
+  "reason_for_unban": "Lý do mở khóa",
+  "submit": "Gửi yêu cầu",
+  "email_subject": "Yêu cầu mở khóa số WhatsApp",
+  "email_body": "Xin chào team WhatsApp,\n\nTôi muốn yêu cầu mở khóa số WhatsApp của mình.",
+  "unban_number": "Số điện thoại",
+  "regards": "Trân trọng",
+  "reasons": {
+    "mistake": "Số của tôi bị khóa nhầm.",
+    "spam": "Tôi bị báo cáo nhầm là spam.",
+    "terms": "Tôi không vi phạm điều khoản.",
+    "other": "Khác (vui lòng kiểm tra thủ công)."
+  }
+},
+"tr": {
+  "language_name": "Türkçe",
+  "title": "WhatsApp Numarası Yasak Kaldırma Talebi",
+  "your_name": "Adınız",
+  "number_to_unban": "Kaldırılacak Numara (+62...)",
+  "reason_for_unban": "Kaldırma Nedeni",
+  "submit": "Talebi Gönder",
+  "email_subject": "WhatsApp Numarası Yasak Kaldırma Talebi",
+  "email_body": "Merhaba WhatsApp Ekibi,\n\nWhatsApp numaramın yasağının kaldırılmasını talep ediyorum.",
+  "unban_number": "Telefon Numarası",
+  "regards": "Saygılarımızla",
+  "reasons": {
+    "mistake": "Numaram yanlışlıkla engellendi.",
+    "spam": "Yanlışlıkla spam olarak rapor edildim.",
+    "terms": "Hizmet koşullarını ihlal etmedim.",
+    "other": "Diğer (lütfen manuel kontrol edin)."
+  }
+},
+"pl": {
+  "language_name": "Polski",
+  "title": "Prośba o odblokowanie numeru WhatsApp",
+  "your_name": "Twoje imię",
+  "number_to_unban": "Numer do odblokowania (+62...)",
+  "reason_for_unban": "Powód odblokowania",
+  "submit": "Wyślij prośbę",
+  "email_subject": "Prośba o odblokowanie numeru WhatsApp",
+  "email_body": "Witaj zespole WhatsApp,\n\nChciałbym poprosić o odblokowanie mojego numeru WhatsApp.",
+  "unban_number": "Numer telefonu",
+  "regards": "Z pozdrowieniami",
+  "reasons": {
+    "mistake": "Mój numer został zablokowany przez pomyłkę.",
+    "spam": "Zostałem fałszywie zgłoszony jako spam.",
+    "terms": "Nie złamałem żadnych zasad.",
+    "other": "Inne (proszę sprawdzić ręcznie)."
+  }
+},
+"it": {
+  "language_name": "Italiano",
+  "title": "Richiesta Sblocco Numero WhatsApp",
+  "your_name": "Il tuo nome",
+  "number_to_unban": "Numero da Sbloccare (+62...)",
+  "reason_for_unban": "Motivo dello sblocco",
+  "submit": "Invia Richiesta",
+  "email_subject": "Richiesta di Sblocco Numero WhatsApp",
+  "email_body": "Ciao team WhatsApp,\n\nVorrei richiedere lo sblocco del mio numero WhatsApp.",
+  "unban_number": "Numero di Telefono",
+  "regards": "Cordiali saluti",
+  "reasons": {
+    "mistake": "Il mio numero è stato bloccato per errore.",
+    "spam": "Sono stato segnalato erroneamente come spam.",
+    "terms": "Non ho violato alcun termine.",
+    "other": "Altro (per favore controllare manualmente)."
+  }
+},
+"nl": {
+  "language_name": "Nederlands",
+  "title": "Verzoek tot opheffen blokkering WhatsApp-nummer",
+  "your_name": "Jouw naam",
+  "number_to_unban": "Nummer om te deblokkeren (+62...)",
+  "reason_for_unban": "Reden voor opheffen",
+  "submit": "Verzoek versturen",
+  "email_subject": "Verzoek tot deblokkering WhatsApp-nummer",
+  "email_body": "Hallo WhatsApp-team,\n\nIk wil graag deblokkering van mijn WhatsApp-nummer aanvragen.",
+  "unban_number": "Telefoonnummer",
+  "regards": "Met vriendelijke groet",
+  "reasons": {
+    "mistake": "Mijn nummer is per ongeluk geblokkeerd.",
+    "spam": "Ik ben ten onrechte als spam gemeld.",
+    "terms": "Ik heb geen regels overtreden.",
+    "other": "Anders (controleer handmatig)."
+  }
+},
+"sv": {
+  "language_name": "Svenska",
+  "title": "Begäran om upplåsning av WhatsApp‑nummer",
+  "your_name": "Ditt namn",
+  "number_to_unban": "Nummer för upplåsning (+62...)",
+  "reason_for_unban": "Orsak till upplåsning",
+  "submit": "Skicka förfrågan",
+  "email_subject": "Begäran om upplåsning av WhatsApp‑nummer",
+  "email_body": "Hej WhatsApp‑team,\n\nJag vill begära upplåsning av mitt WhatsApp‑nummer.",
+  "unban_number": "Telefonnummer",
+  "regards": "Med vänlig hälsning",
+  "reasons": {
+    "mistake": "Mitt nummer blev blockerad av misstag.",
+    "spam": "Jag rapporterades felaktigt som skräppost.",
+    "terms": "Jag bröt inga villkor.",
+    "other": "Annat (vänligen granska manuellt)."
+  }
+},
+"no": {
+  "language_name": "Norsk",
+  "title": "Forespørsel om oppheving av blokkering på WhatsApp‑nummer",
+  "your_name": "Ditt navn",
+  "number_to_unban": "Nummer som skal oppheves (+62...)",
+  "reason_for_unban": "Årsak til oppheving",
+  "submit": "Send forespørsel",
+  "email_subject": "Forespørsel om oppheving av blokkering på WhatsApp‑nummer",
+  "email_body": "Hei WhatsApp‑team,\n\nJeg ønsker å be om oppheving av blokkeringen på mitt WhatsApp‑nummer.",
+  "unban_number": "Telefonnummer",
+  "regards": "Vennlig hilsen",
+  "reasons": {
+    "mistake": "Nummeret mitt ble blokkert ved en feil.",
+    "spam": "Jeg ble feilaktig rapportert som spam.",
+    "terms": "Jeg har ikke brutt noen vilkår.",
+    "other": "Annet (vennligst kontroller manuelt)."
+  }
+},
+"th": {
+  "language_name": "ไทย",
+  "title": "ขอปลดบล็อกหมายเลข WhatsApp",
+  "your_name": "ชื่อของคุณ",
+  "number_to_unban": "หมายเลขที่ต้องการปลดบล็อก (+62...)",
+  "reason_for_unban": "เหตุผลในการปลดบล็อก",
+  "submit": "ส่งคำขอ",
+  "email_subject": "ขอปลดบล็อกหมายเลข WhatsApp",
+  "email_body": "สวัสดีทีมงาน WhatsApp,\n\nฉันต้องการขอปลดบล็อกหมายเลข WhatsApp ของฉัน",
+  "unban_number": "หมายเลขโทรศัพท์",
+  "regards": "ด้วยความนับถือ",
+  "reasons": {
+    "mistake": "หมายเลขของฉันถูกบล็อกโดยไม่ตั้งใจ",
+    "spam": "ฉันถูกแจ้งเป็นสแปมโดยไม่ได้ตั้งใจ",
+    "terms": "ฉันไม่ได้ละเมิดข้อกำหนดใดๆ",
+    "other": "อื่นๆ (กรุณาตรวจสอบด้วยตนเอง)"
+  }
+},
+"my": {
+  "language_name": "မြန်မာ",
+  "title": "WhatsApp နံပါတ် အနားထွက်ရန် တောင်းဆိုသည်",
+  "your_name": "အမည်",
+  "number_to_unban": "အနားထွက်ရန် နံပါတ် (+62...)",
+  "reason_for_unban": "အနားထွက်ပြုလုပ်ရခြင်း အကြောင်းရင်း",
+  "submit": "တောင်းဆိုချက် ပို့ရန်",
+  "email_subject": "WhatsApp နံပါတ် အနားထွက် တောင်းဆိုခြင်း",
+  "email_body": "WhatsApp အဖွဲ့၊\n\nကျွန်ုပ်၏ WhatsApp နံပါတ်ကို အနားထွက်ရန် တောင်းဆိုလိုသည်။",
+  "unban_number": "ဖုန်းနံပါတ်",
+  "regards": "လေးစားစွာဖြင့်",
+  "reasons": {
+    "mistake": "ကျွန်ုပ်၏ နံပါတ်ကိုမမှန်ကန်ဘဲ ပိတ်ထားသည်။",
+    "spam": "အတုအကျိုးဖြင့် စပမ်အဖြစ်တုံ့ပြန်ခဲ့သည်။",
+    "terms": "ကျွန်ုပ်သည် စည်းကမ်းမဖောက်ဖျက်ပါ။",
+    "other": "အခြား (ကျေးဇူးပြု၍ လက်ဖြင့်စစ်ဆေးပါ။)"
+  }
+},
+"tl": {
+  "language_name": "Tagalog",
+  "title": "Request para Ma-unban ang WhatsApp Number",
+  "your_name": "Iyong Pangalan",
+  "number_to_unban": "Number na i-unban (+62...)",
+  "reason_for_unban": "Dahilan ng pag-unban",
+  "submit": "Ipadala ang Request",
+  "email_subject": "Request para Ma-unban ang WhatsApp Number",
+  "email_body": "Kumusta WhatsApp Team,\n\nNais kong humiling na ma-unban ang aking WhatsApp number.",
+  "unban_number": "Numero ng Telepono",
+  "regards": "Maraming Salamat",
+  "reasons": {
+    "mistake": "Mali ang pag-block sa numero ko.",
+    "spam": "Maling nai-report bilang spam ako.",
+    "terms": "Hindi ko nilabag ang mga patakaran.",
+    "other": "Iba pa (paki-check manually)."
+  }
+},
+"cs": {
+  "language_name": "Čeština",
+  "title": "Žádost o odblokování čísla WhatsApp",
+  "your_name": "Vaše jméno",
+  "number_to_unban": "Číslo k odblokování (+62...)",
+  "reason_for_unban": "Důvod odblokování",
+  "submit": "Odeslat žádost",
+  "email_subject": "Žádost o odblokování čísla WhatsApp",
+  "email_body": "Dobrý den, týme WhatsApp,\n\nrád bych požádal o odblokování mého čísla.",
+  "unban_number": "Telefonní číslo",
+  "regards": "S pozdravem",
+  "reasons": {
+    "mistake": "Mé číslo bylo omylem zablokováno.",
+    "spam": "Byl jsem omylem nahlášen jako spam.",
+    "terms": "Neporušil jsem žádné podmínky.",
+    "other": "Jiné (prosím zkontrolujte ručně)."
+  }
+},
+"ro": {
+  "language_name": "Română",
+  "title": "Cerere de deblocare număr WhatsApp",
+  "your_name": "Numele tău",
+  "number_to_unban": "Număr de deblocat (+62...)",
+  "reason_for_unban": "Motivul deblocării",
+  "submit": "Trimite cerere",
+  "email_subject": "Cerere de deblocare număr WhatsApp",
+  "email_body": "Salut echipa WhatsApp,\n\nAș dori să solicit deblocarea numărului meu WhatsApp.",
+  "unban_number": "Număr de telefon",
+  "regards": "Cu stimă",
+  "reasons": {
+    "mistake": "Numărul meu a fost blocat din greșeală.",
+    "spam": "Am fost raportat greșit ca spam.",
+    "terms": "Nu am încălcat niciun termen.",
+    "other": "Altceva (vă rugăm să verificați manual)."
+  }
+},
+"el": {
+  "language_name": "Ελληνικά",
+  "title": "Αίτημα ξεμπλοκαρίσματος αριθμού WhatsApp",
+  "your_name": "Το όνομά σας",
+  "number_to_unban": "Αριθμός προς ξεμπλοκάρισμα (+62...)",
+  "reason_for_unban": "Αιτία ξεμπλοκαρίσματος",
+  "submit": "Αποστολή αιτήματος",
+  "email_subject": "Αίτημα για ξεμπλοκάρισμα αριθμού WhatsApp",
+  "email_body": "Γεια σας ομάδα WhatsApp,\n\nθέλω να ζητήσω ξεμπλοκάρισμα του αριθμού μου στο WhatsApp.",
+  "unban_number": "Αριθμός τηλεφώνου",
+  "regards": "Με εκτίμηση",
+  "reasons": {
+    "mistake": "Ο αριθμός μου μπλοκαρίστηκε κατά λάθος.",
+    "spam": "Καταγγέλθηκε λανθασμένα ως spam.",
+    "terms": "Δεν παραβίασα καμία προϋπόθεση.",
+    "other": "Άλλο (παρακαλώ ελέγξτε χειροκίνητα)."
+  }
+},
+"hu": {
+  "language_name": "Magyar",
+  "title": "WhatsApp szám feloldását kérem",
+  "your_name": "A neved",
+  "number_to_unban": "Feloldani kívánt szám (+62...)",
+  "reason_for_unban": "Feloldás oka",
+  "submit": "Kérelem küldése",
+  "email_subject": "Kérelem a WhatsApp szám feloldására",
+  "email_body": "Sziasztok WhatsApp csapat,\n\nSzeretném kérni a számom feloldását.",
+  "unban_number": "Telefonszám",
+  "regards": "Üdvözlettel",
+  "reasons": {
+    "mistake": "A számom tévedésből lett letiltva.",
+    "spam": "Hibásan jelentettek spamként.",
+    "terms": "Nem sértettem meg szabályokat.",
+    "other": "Egyéb (kérem ellenőrizzék manuálisan)."
+  }
+},
+"fa": {
+  "language_name": "فارسی",
+  "title": "درخواست رفع مسدودی شماره واتساپ",
+  "your_name": "نام شما",
+  "number_to_unban": "شماره جهت رفع مسدودی (+62...)",
+  "reason_for_unban": "دلیل رفع مسدودی",
+  "submit": "ارسال درخواست",
+  "email_subject": "درخواست رفع مسدودی شماره واتساپ",
+  "email_body": "سلام تیم واتساپ،\n\nمن می‌خواهم درخواست رفع مسدودی شماره واتساپم را ثبت کنم.",
+  "unban_number": "شماره تلفن",
+  "regards": "با احترام",
+  "reasons": {
+    "mistake": "شماره من به اشتباه مسدود شد.",
+    "spam": "به اشتباه به‌عنوان اسپم گزارش شدم.",
+    "terms": "من هیچ‌قوانینی را نقض نکرده‌ام.",
+    "other": "سایر موارد (لطفا دستی بررسی شود)."
+  }
+},
+"he": {
+  "language_name": "עברית",
+  "title": "בקשה להסרת חסימה של מספר WhatsApp",
+  "your_name": "שמך",
+  "number_to_unban": "מספר להסרה (+62...)",
+  "reason_for_unban": "סיבת הביטול",
+  "submit": "שלח בקשה",
+  "email_subject": "בקשה להסרת חסימה של מספר WhatsApp",
+  "email_body": "שלום צוות WhatsApp,\n\nאני מעוניין לבקש הסרת חסימה של מספר ה‑WhatsApp שלי.",
+  "unban_number": "מספר טלפון",
+  "regards": "בברכה",
+  "reasons": {
+    "mistake": "המספר שלי נחסם בטעות.",
+    "spam": "דווח עלי בטעות כספאם.",
+    "terms": "לא הפרתי תנאים.",
+    "other": "אחר (אנא בדקו ידנית)."
+  }
+},
+"ur": {
+  "language_name": "اردو",
+  "title": "WhatsApp نمبر کی ان بن درخواست",
+  "your_name": "آپ کا نام",
+  "number_to_unban": "ان بن کرنے والا نمبر (+62...)",
+  "reason_for_unban": "ان بن کی وجہ",
+  "submit": "درخواست بھیجیں",
+  "email_subject": "WhatsApp نمبر کی ان بن درخواست",
+  "email_body": "ہیلو WhatsApp ٹیم،\n\nمیں اپنے نمبر کی ان بن چاہتا ہوں۔",
+  "unban_number": "فون نمبر",
+  "regards": "نیک خواہشات کے ساتھ",
+  "reasons": {
+    "mistake": "میرا نمبر غلطی سے بلاک ہو گیا ہے۔",
+    "spam": "مجھے غلط طور پر اسپیم رپورٹ کیا گیا۔",
+    "terms": "میں نے کوئی اصول نہیں توڑے۔",
+    "other": "دیگر (براہ کرم دستی طور پر چیک کریں)."
+  }
+},
+"sk": {
+  "language_name": "Slovenčina",
+  "title": "Žiadosť o odblokovanie čísla WhatsApp",
+  "your_name": "Tvoje meno",
+  "number_to_unban": "Číslo na odblokovanie (+62...)",
+  "reason_for_unban": "Dôvod odblokovania",
+  "submit": "Odoslať žiadosť",
+  "email_subject": "Žiadosť o odblokovanie čísla WhatsApp",
+  "email_body": "Ahoj tím WhatsApp,\n\nChcel by som požiadať o odblokovanie čísla.",
+  "unban_number": "Telefónne číslo",
+  "regards": "S pozdravom",
+  "reasons": {
+    "mistake": "Moje číslo bolo omylom zablokované.",
+    "spam": "Bolo som nesprávne nahlásený ako spam.",
+    "terms": "Nedodržal som žiadne podmienky.",
+    "other": "Iné (prosím skontrolujte manuálne)."
+  }
+},
+"hr": {
+  "language_name": "Hrvatski",
+  "title": "Zahtjev za deblokadu WhatsApp broja",
+  "your_name": "Vaše ime",
+  "number_to_unban": "Broj za deblokadu (+62...)",
+  "reason_for_unban": "Razlog deblokade",
+  "submit": "Pošalji zahtjev",
+  "email_subject": "Zahtjev za deblokadu WhatsApp broja",
+  "email_body": "Bok WhatsApp tim,\n\nŽelim zatražiti deblokadu svog broja.",
+  "unban_number": "Broj telefona",
+  "regards": "S poštovanjem",
+  "reasons": {
+    "mistake": "Moj broj je greškom blokiran.",
+    "spam": "Pogrešno sam prijavljen spam.",
+    "terms": "Nisam prekršio pravila.",
+    "other": "Ostalo (molim provjerite ručno)."
+  }
+},
+"bg": {
+  "language_name": "Български",
+  "title": "Заявка за деблокиране на WhatsApp номер",
+  "your_name": "Вашето име",
+  "number_to_unban": "Номер за деблокиране (+62...)",
+  "reason_for_unban": "Причина за деблокиране",
+  "submit": "Изпрати заявка",
+  "email_subject": "Заявка за деблокиране на WhatsApp номер",
+  "email_body": "Здравейте екип на WhatsApp,\n\nИскам да поискам деблокиране на номера си.",
+  "unban_number": "Телефонен номер",
+  "regards": "С уважение",
+  "reasons": {
+    "mistake": "Моят номер беше блокиран по грешка.",
+    "spam": "Бях докладван погрешно като спам.",
+    "terms": "Не наруших никакви правила.",
+    "other": "Друго (моля, проверете ръчно)."
+  }
+},
+"da": {
+  "language_name": "Dansk",
+  "title": "Anmodning om ophævelse af WhatsApp‑nummerblokering",
+  "your_name": "Dit navn",
+  "number_to_unban": "Nummer til ophævning (+62...)",
+  "reason_for_unban": "Årsag til ophævelse",
+  "submit": "Send anmodning",
+  "email_subject": "Anmodning om ophævelse af WhatsApp‑nummerblokering",
+  "email_body": "Hej WhatsApp‑team,\n\nJeg ønsker at anmode om ophævelse af blokeringen af mit WhatsApp‑nummer.",
+  "unban_number": "Telefonnummer",
+  "regards": "Med venlig hilsen",
+  "reasons": {
+    "mistake": "Mit nummer blev blokeret ved en fejl.",
+    "spam": "Jeg blev fejlagtigt rapporteret som spam.",
+    "terms": "Jeg har ikke overtrådt nogen betingelser.",
+    "other": "Andet (tjek manuelt)."
+  }
+},
+"fi": {
+  "language_name": "Suomi",
+  "title": "Pyyntö poistaa estot WhatsApp‑numeroilta",
+  "your_name": "Nimesi",
+  "number_to_unban": "Numero poistettavaksi (+62...)",
+  "reason_for_unban": "Syyt eston poistoon",
+  "submit": "Lähetä pyyntö",
+  "email_subject": "Pyyntö WhatsApp‑numeron eston poistamisesta",
+  "email_body": "Hei WhatsApp‑tiimi,\n\nHaluan pyytää numeroni eston poistamista.",
+  "unban_number": "Puhelinnumero",
+  "regards": "Ystävällisin terveisin",
+  "reasons": {
+    "mistake": "Numeroni estettiin vahingossa.",
+    "spam": "Minut raportoitiin virheellisesti roskapostiksi.",
+    "terms": "En rikkonut ehtoja.",
+    "other": "Muu (tarkista käsin)."
+  }
+}
+}

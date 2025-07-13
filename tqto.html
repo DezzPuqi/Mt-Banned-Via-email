@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thanks To</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Outfit', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      overflow: hidden;
+    }
+
+    .container {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      animation: slideDown 1.5s ease-out;
+    }
+
+    .thanks-box {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 30px 40px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(8px);
+      animation: fadeUp 1s ease-in-out forwards;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      font-size: 1.3em;
+      margin: 12px 0;
+      opacity: 0;
+      animation: fadeUp 0.8s ease forwards;
+    }
+
+    li:nth-child(1) { animation-delay: 0.2s; }
+    li:nth-child(2) { animation-delay: 0.3s; }
+    li:nth-child(3) { animation-delay: 0.4s; }
+    li:nth-child(4) { animation-delay: 0.5s; }
+    li:nth-child(5) { animation-delay: 0.6s; }
+    li:nth-child(6) { animation-delay: 0.7s; }
+    li:nth-child(7) { animation-delay: 0.8s; }
+
+    .links {
+      margin-top: 30px;
+      animation: fadeUp 1.2s ease forwards;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: #fff;
+      background: #0077ff;
+      padding: 12px 24px;
+      margin: 10px;
+      border-radius: 8px;
+      display: inline-block;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .links a:hover {
+      background: #005fcc;
+      transform: scale(1.05);
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes slideDown {
+      0% { transform: translateY(-40px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes fadeUp {
+      0% { transform: translateY(40px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+
+    @media screen and (max-width: 600px) {
+      h1 { font-size: 2em; }
+      .thanks-box { padding: 20px; }
+      .links a { padding: 10px 20px; font-size: 0.9em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Thanks To</h1>
+    <div class="thanks-box">
+      <ul>
+        <li>✝️ <strong>Yesus</strong> — Tuhanku</li>
+        <li>👪 <strong>My Ortu</strong> — Supportku</li>
+        <li>💻 <strong>Dezz</strong> — Dev Website</li>
+        <li>🤝 <strong>Wyne</strong> — My Partner</li>
+        <li>🤖 <strong>Gpt</strong> — My Assistance</li>
+        <li>🌐 <strong>All Member DezzTobrut</strong> — Terima Kasih Kalian Semua</li>
+      </ul>
+      <div class="links">
+        <a href="https://t.me/wynexishere" target="_blank">📢 Telegram</a>
+        <a href="https://whatsapp.com/channel/0029Vb5fjpCHwXb7bmxcO50i" target="_blank">📣 WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

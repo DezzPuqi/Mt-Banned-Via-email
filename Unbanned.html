@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unban WhatsApp Request</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --primary: #4caf50;
+      --background: #0d1b2a;
+      --card: #1b263b;
+      --text: #ffffff;
+      --input-bg: #2c3e50;
+      --input-border: #3c4f65;
+      --btn-hover: #66bb6a;
+      --glow: 0 0 10px #4caf50, 0 0 20px #4caf50, 0 0 30px #66bb6a;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: var(--background);
+      font-family: 'Segoe UI', sans-serif;
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background-color: var(--card);
+      border-radius: 12px;
+      width: 100%;
+      max-width: 500px;
+      padding: 30px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    h2 {
+      text-align: center;
+      color: var(--primary);
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: 500;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 6px;
+      border: 1px solid var(--input-border);
+      background-color: var(--input-bg);
+      color: var(--text);
+      font-size: 15px;
+    }
+
+    button {
+      background-color: var(--primary);
+      color: white;
+      border: none;
+      padding: 12px;
+      margin-top: 25px;
+      width: 100%;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background-color: var(--btn-hover);
+      box-shadow: var(--glow);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    #total-languages {
+      margin: 8px 0 0;
+      font-size: 14px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 id="title">Request Unban</h2>
+
+    <label for="language">🌍 Language</label>
+    <select id="language" onchange="changeLanguage()"></select>
+    <p id="total-languages"></p>
+
+    <label for="name" id="label-name">Your Name</label>
+    <input type="text" id="name">
+
+    <label for="number" id="label-number">WhatsApp Number (+62...)</label>
+    <input type="text" id="number">
+
+    <button id="submit-btn" onclick="sendRequest()">Send Request</button>
+  </div>
+
+  <script>
+    let data = {};
+    let currentLang = "en";
+
+    fetch("unban.json") // file JSON multi-bahasa
+      .then(res => res.json())
+      .then(json => {
+        data = json;
+        populateLanguages();
+        changeLanguage();
+      });
+
+    function populateLanguages() {
+      const langSelect = document.getElementById("language");
+      langSelect.innerHTML = "";
+      Object.keys(data).forEach(lang => {
+        const opt = document.createElement("option");
+        opt.value = lang;
+        opt.text = data[lang].language_name;
+        langSelect.appendChild(opt);
+      });
+      document.getElementById("total-languages").innerText = `🌐 ${Object.keys(data).length} languages available.`;
+    }
+
+    function changeLanguage() {
+      const lang = document.getElementById("language").value;
+      currentLang = lang;
+      const d = data[lang];
+
+      document.getElementById("title").innerText = d.title;
+      document.getElementById("label-name").innerText = d.your_name;
+      document.getElementById("label-number").innerText = d.number_to_unban;
+      document.getElementById("submit-btn").innerText = d.submit;
+    }
+
+    function sendRequest() {
+      const d = data[currentLang];
+      const name = document.getElementById("name").value.trim();
+      const number = document.getElementById("number").value.trim();
+
+      if (!name || !number) {
+        alert("Please fill in all fields.");
+        return;
+      }
+
+      const subject = encodeURIComponent(d.email_subject);
+      const body = encodeURIComponent(`${d.email_body}\n\n${d.unban_number}: ${number}\n\n${d.regards},\n${name}`);
+      window.open(`mailto:support@whatsapp.com?subject=${subject}&body=${body}`);
+    }
+  </script>
+</body>
+</html>
