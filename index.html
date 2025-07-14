@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dezz MT</title>
+  <title>Dezz Tools</title>
   <style>
     html, body {
       margin: 0;
@@ -26,7 +26,6 @@
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
       z-index: 9999;
       cursor: pointer;
-      max-width: 90%;
       width: 95%;
       max-width: 600px;
       height: 50px;
@@ -56,19 +55,40 @@
       border: none;
       width: 100vw;
       height: 100vh;
+      display: none;
+    }
+
+    iframe.active {
+      display: block;
     }
   </style>
 </head>
 <body>
 
   <a id="notif" href="https://whatsapp.com/channel/0029Vb5fjpCHwXb7bmxcO50i" target="_blank">
-    <span>📢 Klik di sini untuk info terbaru tentang <strong>MT BANNED Dezz</strong></span>
+    <span>📢 Klik di sini untuk info terbaru tentang <strong>Tools Dezz</strong></span>
     <button class="close-btn" onclick="event.stopPropagation(); event.preventDefault(); document.getElementById('notif').style.display='none';">✕</button>
   </a>
 
-  <iframe src="https://mtbanned-bydezz.netlify.app/dashboard.html" allowfullscreen></iframe>
+  <!-- Dua iframe -->
+  <iframe id="web1" src="https://mtbanned-bydezz.netlify.app/dashboard.html" allowfullscreen></iframe>
+  <iframe id="web2" src="https://dezztobrut.vercel.app" allowfullscreen></iframe>
 
   <script>
+    // Ubah ini ke true/false sesuai kebutuhan
+    const isWeb2 = false;
+
+    // Pilih iframe berdasarkan kondisi
+    const iframe1 = document.getElementById("web1");
+    const iframe2 = document.getElementById("web2");
+
+    if (isWeb2) {
+      iframe2.classList.add("active");
+    } else {
+      iframe1.classList.add("active");
+    }
+
+    // Notifikasi interaktif (tidak perlu diubah)
     const notif = document.getElementById('notif');
     let startX, startY, moved = false;
 
@@ -88,7 +108,7 @@
       }
     });
 
-    notif.addEventListener('touchend', function(e) {
+    notif.addEventListener('touchend', function() {
       if (moved) {
         notif.style.transition = 'all 0.3s ease';
         notif.style.opacity = '0';
@@ -100,7 +120,6 @@
       }
     });
 
-    // Mouse (desktop)
     notif.addEventListener('mousedown', function(e) {
       startX = e.clientX;
       startY = e.clientY;
