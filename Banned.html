@@ -1,179 +1,237 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>Report WhatsApp Number</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Generator Teks WhatsApp Banned - Neon Style</title>
   <style>
-    :root {
-      --primary: #2196f3;
-      --background: #0d1b2a;
-      --card: #1b263b;
-      --text: #ffffff;
-      --input-bg: #2c3e50;
-      --input-border: #3c4f65;
-      --btn-hover: #42a5f5;
-      --glow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 30px #42a5f5;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
-    html, body {
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: #0f0f0f;
+      color: #00ffe7;
       margin: 0;
-      padding: 0;
-      height: 100%;
-      background-color: var(--background);
-      font-family: 'Segoe UI', sans-serif;
-      color: var(--text);
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      padding: 20px;
+      overflow-x: hidden;
     }
 
     .container {
-      background-color: var(--card);
-      border-radius: 12px;
-      width: 100%;
-      max-width: 500px;
-      padding: 30px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-      animation: fadeIn 0.5s ease-in-out;
+      max-width: 750px;
+      margin: auto;
+      background: #1a1a1a;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px #00fff7, 0 0 40px #007cf0 inset;
     }
 
     h2 {
       text-align: center;
-      color: var(--primary);
-      margin-bottom: 20px;
+      color: #00fff7;
+      text-shadow: 0 0 10px #00fff7;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
     }
 
     label {
+      font-weight: bold;
       display: block;
-      margin-top: 15px;
-      font-weight: 500;
+      margin-bottom: 5px;
+      color: #00ffe7;
     }
 
-    input, select {
+    input, select, button, textarea {
       width: 100%;
       padding: 10px;
-      margin-top: 5px;
-      border-radius: 6px;
-      border: 1px solid var(--input-border);
-      background-color: var(--input-bg);
-      color: var(--text);
-      font-size: 15px;
+      border-radius: 10px;
+      border: none;
+      box-sizing: border-box;
+      background-color: #0e0e0e;
+      color: #00ffe7;
+      outline: none;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      box-shadow: 0 0 8px #00fff7;
     }
 
     button {
-      background-color: var(--primary);
-      color: white;
-      border: none;
-      padding: 12px;
-      margin-top: 25px;
-      width: 100%;
-      font-size: 16px;
-      border-radius: 6px;
+      background: #00ffe7;
+      color: #0f0f0f;
+      font-weight: bold;
       cursor: pointer;
-      transition: all 0.3s ease;
+      transition: 0.3s ease;
     }
 
     button:hover {
-      background-color: var(--btn-hover);
-      box-shadow: var(--glow);
+      background: #00aaff;
+      color: white;
     }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+    .output {
+      margin-top: 20px;
     }
 
-    #total-languages {
-      margin: 8px 0 0;
+    .btn-row {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .btn-row button {
+      flex: 1;
+    }
+
+    #languageCount {
+      text-align: center;
+      color: #aaa;
+      margin-bottom: 10px;
       font-size: 14px;
-      color: #ccc;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h2 id="title">Report WhatsApp Number</h2>
+    <h2>🚫 Generator Teks Laporan WhatsApp 🚫</h2>
+    <p id="languageCount">Memuat bahasa...</p>
 
-    <label for="language">🌍 Language</label>
-    <select id="language" onchange="changeLanguage()"></select>
-    <p id="total-languages"></p>
+    <div class="form-group">
+      <label for="name">Nama Anda</label>
+      <input type="text" id="name" placeholder="Contoh: Dimas">
+    </div>
 
-    <label for="name" id="label-name">Your Name</label>
-    <input type="text" id="name">
+    <div class="form-group">
+      <label for="number">Nomor yang Dilaporkan</label>
+      <input type="text" id="number" placeholder="Contoh: +6281234567890">
+    </div>
 
-    <label for="number" id="label-number">Number to Report (+62...)</label>
-    <input type="text" id="number">
+    <div class="form-group">
+      <label for="reason">Pilih Alasan</label>
+      <select id="reason">
+        <option value="spam">Spam</option>
+        <option value="scam">Penipuan</option>
+        <option value="harassment">Pelecehan</option>
+        <option value="fakeprofile">Akun Palsu</option>
+        <!-- Tambahkan alasan lain jika diperlukan -->
+      </select>
+    </div>
 
-    <label for="reason" id="label-reason">Select Reason</label>
-    <select id="reason"></select>
+    <div class="form-group">
+      <label for="lang">Pilih Bahasa</label>
+      <select id="lang"></select>
+    </div>
 
-    <button id="submit-btn" onclick="sendReport()">Send Report</button>
+    <button onclick="generate()">🔧 Generate Teks</button>
+
+    <div class="output">
+      <label for="result">Hasil Teks:</label>
+      <textarea id="result" rows="10" readonly></textarea>
+
+      <div class="btn-row">
+        <button onclick="copyText()">📋 Salin</button>
+        <button onclick="sendEmail()">📧 Laporkan via Email</button>
+      </div>
+    </div>
   </div>
 
   <script>
-    let data = {};
-    let currentLang = "en";
+    const api = "https://197156c6-5239-4c71-b332-8f1505f57cc1-00-3lst5qw6odtwl.sisko.replit.dev";
 
-    fetch("ban.json")
-      .then(res => res.json())
-      .then(json => {
-        data = json;
-        populateLanguages();
-        changeLanguage();
-      });
+    const languageMap = {
+  "id": "Bahasa Indonesia",
+  "en": "English",
+  "es": "Español",
+  "fr": "Français",
+  "de": "Deutsch",
+  "pt": "Português",
+  "it": "Italiano",
+  "ru": "Русский",
+  "zh": "中文",
+  "ja": "日本語",
+  "ko": "한국어",
+  "ar": "العربية",
+  "tr": "Türkçe",
+  "nl": "Nederlands",
+  "pl": "Polski",
+  "sv": "Svenska",
+  "no": "Norsk",
+  "da": "Dansk",
+  "fi": "Suomi",
+  "el": "Ελληνικά",
+  "hi": "हिन्दी",
+  "bn": "বাংলা",
+  "vi": "Tiếng Việt",
+  "th": "ไทย",
+  "ur": "اردو",
+  "fa": "فارسی",
+  "ro": "Română",
+  "hu": "Magyar",
+  "cs": "Čeština",
+  "sk": "Slovenčina",
+  "uk": "Українська",
+  "hr": "Hrvatski",
+  "sr": "Српски"
+};
 
-    function populateLanguages() {
-      const langSelect = document.getElementById("language");
-      langSelect.innerHTML = "";
-      Object.keys(data).forEach(lang => {
+    function loadLanguages() {
+      const langSelect = document.getElementById("lang");
+      const langs = Object.keys(languageMap);
+
+      langs.forEach(code => {
         const opt = document.createElement("option");
-        opt.value = lang;
-        opt.text = data[lang].language_name;
+        opt.value = code;
+        opt.textContent = `${code.toUpperCase()} - ${languageMap[code]}`;
         langSelect.appendChild(opt);
       });
 
-      // Menampilkan total bahasa
-      document.getElementById("total-languages").innerText = `🌐 ${Object.keys(data).length} languages available.`;
+      document.getElementById("languageCount").textContent = `Total Bahasa Tersedia: ${langs.length}`;
     }
 
-    function changeLanguage() {
-      const lang = document.getElementById("language").value;
-      currentLang = lang;
-      const d = data[lang];
+    function generate() {
+      const name = document.getElementById("name").value.trim();
+      const number = document.getElementById("number").value.trim();
+      const reason = document.getElementById("reason").value;
+      const lang = document.getElementById("lang").value;
 
-      document.getElementById("title").innerText = d.title;
-      document.getElementById("label-name").innerText = d.your_name;
-      document.getElementById("label-number").innerText = d.number_to_report;
-      document.getElementById("label-reason").innerText = d.select_reason;
-      document.getElementById("submit-btn").innerText = d.submit;
+      if (!name || !number || !reason) return alert("Lengkapi semua data!");
 
-      const reasonSelect = document.getElementById("reason");
-      reasonSelect.innerHTML = "";
-      Object.entries(d.reasons).forEach(([key, value]) => {
-        const opt = document.createElement("option");
-        opt.value = key;
-        opt.text = value;
-        reasonSelect.appendChild(opt);
+      fetch(`${api}/generate-ban-text`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, number, reason_code: reason, lang })
+      })
+      .then(res => res.json())
+      .then(data => {
+        if (data.error) return alert("Gagal: " + data.error);
+        document.getElementById("result").value = `To: ${data.to}\nSubject: ${data.subject}\n\n${data.message}`;
+      })
+      .catch(err => {
+        console.error(err);
+        alert("Gagal menghubungi API");
       });
     }
 
-    function sendReport() {
-      const d = data[currentLang];
-      const name = document.getElementById("name").value.trim();
-      const number = document.getElementById("number").value.trim();
-      const reasonKey = document.getElementById("reason").value;
-      const reasonText = d.reasons[reasonKey];
-
-      if (!name || !number || !reasonKey) {
-        alert("Please fill in all fields.");
-        return;
-      }
-
-      const subject = encodeURIComponent(d.email_subject);
-      const body = encodeURIComponent(`${d.email_body}\n\n${d.reported_number}: ${number}\n${reasonText}\n\n${d.regards},\n${name}`);
-      window.open(`mailto:abuse@whatsapp.com?subject=${subject}&body=${body}`);
+    function copyText() {
+      const result = document.getElementById("result");
+      result.select();
+      document.execCommand("copy");
+      alert("Teks berhasil disalin!");
     }
+
+    function sendEmail() {
+      const result = document.getElementById("result").value;
+      if (!result) return alert("Generate dulu teks-nya.");
+
+      const email = "abuse@support.whatsapp.com";
+      const subjectLine = encodeURIComponent(result.split('\n')[1].replace('Subject: ', ''));
+      const body = encodeURIComponent(result.split('\n').slice(3).join('\n'));
+
+      window.open(`mailto:${email}?subject=${subjectLine}&body=${body}`, "_blank");
+    }
+
+    loadLanguages();
   </script>
 </body>
-</html>
+  </html>
