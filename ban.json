@@ -1,4 +1,22 @@
 {
+  "id": {
+    "language_name": "Indonesian",
+    "title": "Laporkan Nomor WhatsApp",
+    "your_name": "Nama Anda",
+    "number_to_report": "Nomor yang Dilaporkan (+62…)",
+    "select_reason": "Pilih Alasan",
+    "submit": "Kirim Laporan",
+    "email_subject": "Laporan Mendesak: Pelanggaran Ketentuan WhatsApp",
+    "email_body": "Kepada Tim Dukungan WhatsApp,\n\nSaya ingin melaporkan secara mendesak terkait pelanggaran serius terhadap Ketentuan Layanan WhatsApp. Nomor yang tercantum di bawah ini berpotensi membahayakan pengguna lain.\n\nMohon tinjau informasi ini dan segera ambil tindakan yang diperlukan.",
+    "reported_number": "Nomor yang Dilaporkan",
+    "regards": "Hormat saya,\nPengguna yang prihatin",
+    "reasons": {
+      "gambling": "Nomor ini mempromosikan perjudian ilegal dan mengarahkan pengguna ke grup judi.",
+      "murder": "Nomor ini menyebarkan pesan-pesan kekerasan yang mengarah pada ancaman pembunuhan.",
+      "harassment": "Mengirimkan konten seksual yang tidak pantas dan melakukan pelecehan terhadap pengguna lain.",
+      "spam": "Mengirim spam berulang kali ke banyak pengguna dan mengganggu pengalaman mereka."
+    }
+  },
   "en": {
     "language_name": "English",
     "title": "Report WhatsApp Number",
@@ -16,5 +34,1067 @@
       "harassment": "Sexual harassment and sending inappropriate content.",
       "spam": "Sending spam messages repeatedly to many users."
     }
+  },
+  "de": {
+    "language_name": "German",
+    "title": "WhatsApp‑Nummer melden",
+    "your_name": "Ihr Name",
+    "number_to_report": "Nummer melden (+62…)",
+    "select_reason": "Grund auswählen",
+    "submit": "Meldung absenden",
+    "email_subject": "Sofortige Meldung: Verstoß gegen WhatsApp‑Richtlinien",
+    "email_body": "Sehr geehrtes WhatsApp‑Support‑Team,\n\nich möchte dringend einen schwerwiegenden Verstoß gegen die Nutzungsbedingungen von WhatsApp melden. Die unten angegebene Nummer gefährdet möglicherweise die Sicherheit anderer Nutzer.\n\nBitte prüfen Sie die Angaben und ergreifen Sie umgehend entsprechende Maßnahmen.",
+    "reported_number": "Gemeldete Nummer",
+    "regards": "Mit freundlichen Grüßen,\nEin besorgter Nutzer",
+    "reasons": {
+      "gambling": "Die Nummer fördert illegales Glücksspiel und wirbt aktiv für Glücksspielforen.",
+      "murder": "Die Person verbreitet bedrohliche Botschaften mit Gewalt‑ und Tötungsinhalten.",
+      "harassment": "Unangesagte, sexuelle Inhalte und Belästigungen werden an Empfänger gesendet.",
+      "spam": "Wiederholtes massenhaftes Versenden von Spam‑Nachrichten stört andere Nutzer."
+    }
+  },
+  "es": {
+    "language_name": "Spanish",
+    "title": "Denunciar número de WhatsApp",
+    "your_name": "Tu nombre",
+    "number_to_report": "Número a denunciar (+62…)",
+    "select_reason": "Selecciona motivo",
+    "submit": "Enviar denuncia",
+    "email_subject": "Informe inmediato: incumplimiento de normas de WhatsApp",
+    "email_body": "Estimado equipo de soporte de WhatsApp,\n\nquiero denunciar con urgencia una grave infracción de los Términos de Servicio de WhatsApp. El número indicado podría suponer un peligro para otros usuarios.\n\nPor favor, revisen la información y tomen medidas lo antes posible.",
+    "reported_number": "Número denunciado",
+    "regards": "Atentamente,\nUn usuario preocupado",
+    "reasons": {
+      "gambling": "El número promueve apuestas ilegales y dirige a los usuarios a grupos de juego.",
+      "murder": "Difunde mensajes violentos que incitan al asesinato.",
+      "harassment": "Envía contenido sexual inapropiado y acoso a otros usuarios.",
+      "spam": "Envía mensajes repetitivos de spam a múltiples usuarios, perturbando su uso."
+    }
+  },
+  "fr": {
+    "language_name": "French",
+    "title": "Signaler un numéro WhatsApp",
+    "your_name": "Votre nom",
+    "number_to_report": "Numéro à signaler (+62…)",
+    "select_reason": "Sélectionnez la raison",
+    "submit": "Envoyer signalement",
+    "email_subject": "Signalement immédiat : violation des conditions WhatsApp",
+    "email_body": "Chère équipe d’assistance WhatsApp,\n\nje souhaite signaler de toute urgence une violation grave des Conditions d’utilisation de WhatsApp. Le numéro ci‑dessous représente potentiellement un danger pour d’autres utilisateurs.\n\nMerci de vérifier les éléments et d’agir sans délai.",
+    "reported_number": "Numéro signalé",
+    "regards": "Cordialement,\nUn utilisateur concerné",
+    "reasons": {
+      "gambling": "Le numéro fait la promotion de jeux d’argent illégaux et partage des groupes de pari.",
+      "murder": "L’utilisateur diffuse des menaces violentes et incite au meurtre.",
+      "harassment": "Envoie du contenu sexuel inapproprié et harcèlement.",
+      "spam": "Envoie de messages spam répétés dérangeant de nombreux utilisateurs."
+    }
+  },
+  "pt": {
+    "language_name": "Portuguese",
+    "title": "Denunciar número do WhatsApp",
+    "your_name": "Seu nome",
+    "number_to_report": "Número a denunciar (+62…)",
+    "select_reason": "Selecione o motivo",
+    "submit": "Enviar denúncia",
+    "email_subject": "Notificação imediata: violação dos Termos do WhatsApp",
+    "email_body": "Prezada equipe de suporte do WhatsApp,\n\nvenho relatar com urgência uma violação grave dos Termos de Serviço do WhatsApp. O número abaixo pode representar risco a outros usuários.\n\nSolicito análise imediata e ação apropriada.",
+    "reported_number": "Número denunciado",
+    "regards": "Atenciosamente,\nUm usuário preocupado",
+    "reasons": {
+      "gambling": "O número promove apostas ilegais e encaminha usuários a grupos de jogo.",
+      "murder": "Divulga mensagens violentas incentivando assassinato.",
+      "harassment": "Envia conteúdos sexuais inapropriados e assédio.",
+      "spam": "Dispara mensagens de spam repetidamente, perturbando vários usuários."
+    }
+  },
+  "it": {
+    "language_name": "Italian",
+    "title": "Segnala numero WhatsApp",
+    "your_name": "Il tuo nome",
+    "number_to_report": "Numero da segnalare (+62…)",
+    "select_reason": "Seleziona motivo",
+    "submit": "Invia segnalazione",
+    "email_subject": "Segnalazione immediata: violazione condizioni WhatsApp",
+    "email_body": "Gentile team di supporto WhatsApp,\n\ndesidero segnalare con urgenza una grave violazione dei Termini di Servizio di WhatsApp. Il numero indicato potrebbe rappresentare un serio pericolo per altri utenti.\n\nVi prego di esaminare le informazioni e intervenire quanto prima.",
+    "reported_number": "Numero segnalato",
+    "regards": "Cordiali saluti,\nUn utente preoccupato",
+    "reasons": {
+      "gambling": "Il numero promuove giochi d’azzardo illegali e reindirizza utenti a gruppi di scommesse.",
+      "murder": "Diffonde messaggi violenti con incitazione all’omicidio.",
+      "harassment": "Invia contenuti sessuali inappropriati e molestie.",
+      "spam": "Invia spam ripetuti a molti utenti, disturbando l’esperienza WhatsApp."
+    }
+  },
+  "ru": {
+    "language_name": "Russian",
+    "title": "Сообщить номер WhatsApp",
+    "your_name": "Ваше имя",
+    "number_to_report": "Номер для жалобы (+62…)",
+    "select_reason": "Выберите причину",
+    "submit": "Отправить жалобу",
+    "email_subject": "Немедленное сообщение: нарушение условий WhatsApp",
+    "email_body": "Уважаемая служба поддержки WhatsApp,\n\nхочу срочно сообщить о серьезном нарушении Условий использования WhatsApp. Указанный номер может представлять угрозу другим пользователям.\n\nПожалуйста, рассмотрите информацию и примите меры незамедлительно.",
+    "reported_number": "Сообщаемый номер",
+    "regards": "С уважением,\nОбеспокоенный пользователь",
+    "reasons": {
+      "gambling": "Номер продвигает незаконные азартные игры и приглашает в группы.",
+      "murder": "Распространяются угрозы и призывы к насилию и убийству.",
+      "harassment": "Отправляет нежелательный сексуальный контент и домогательства.",
+      "spam": "Многократная отправка спама множеству пользователей."
+    }
+  },
+  "zh": {
+    "language_name": "Chinese",
+    "title": "举报 WhatsApp 号码",
+    "your_name": "您的姓名",
+    "number_to_report": "举报号码 (+62…)",
+    "select_reason": "选择原因",
+    "submit": "提交举报",
+    "email_subject": "紧急举报：违反 WhatsApp 服务条款",
+    "email_body": "尊敬的 WhatsApp 支持团队，\n\n我希望紧急举报一个严重违反 WhatsApp 服务条款的号码。以下号码可能对其他用户构成安全威胁。\n\n请尽快核查并采取相关措施。",
+    "reported_number": "举报号码",
+    "regards": "此致敬礼，\n一位关切的用户",
+    "reasons": {
+      "gambling": "该号码推广非法赌博并引导他人加入赌博群组。",
+      "murder": "该用户传播含暴力或谋杀威胁的消息。",
+      "harassment": "发送不适当的性内容和骚扰信息。",
+      "spam": "向多个用户重复发送垃圾信息，影响使用体验。"
+    }
+  },
+  "ja": {
+    "language_name": "Japanese",
+    "title": "WhatsApp番号を通報する",
+    "your_name": "あなたの名前",
+    "number_to_report": "通報する番号 (+62…)",
+    "select_reason": "理由を選択",
+    "submit": "通報を送信",
+    "email_subject": "緊急通報：WhatsApp利用規約違反",
+    "email_body": "WhatsAppサポートチーム御中、\n\nWhatsAppの利用規約に関わる重大な違反について緊急に報告いたします。以下の番号は他のユーザーにとって危険な可能性があります。\n\nご確認のうえ、速やかな対応をお願いいたします。",
+    "reported_number": "通報番号",
+    "regards": "敬具\n心配するユーザーより",
+    "reasons": {
+      "gambling": "違法ギャンブルを促進し、ギャンブルグループへの参加を呼びかけています。",
+      "murder": "暴力や殺人を煽るようなメッセージを拡散しています。",
+      "harassment": "性的に不適切な内容や嫌がらせを送信しています。",
+      "spam": "多数のユーザーに繰り返しスパムメッセージを送信し、利用体験を妨害しています。"
+    }
+  },
+  "ko": {
+    "language_name": "Korean",
+    "title": "WhatsApp 번호 신고",
+    "your_name": "당신의 이름",
+    "number_to_report": "신고할 번호 (+62…)",
+    "select_reason": "사유 선택",
+    "submit": "신고 전송",
+    "email_subject": "즉시 신고: WhatsApp 이용 약관 위반",
+    "email_body": "WhatsApp 지원팀께,\n\nWhatsApp 이용 약관을 심각하게 위반하는 번호를 긴급하게 신고합니다. 아래 번호는 다른 사용자에게 위험이 될 수 있습니다.\n\n확인 후 조치 부탁드립니다.",
+    "reported_number": "신고 번호",
+    "regards": "감사합니다.\n걱정하는 사용자 드림",
+    "reasons": {
+      "gambling": "불법 도박을 조장하며 도박 그룹에 참여하도록 유도합니다.",
+      "murder": "폭력과 살인을 조장하는 메시지를 유포합니다.",
+      "harassment": "부적절한 성적 내용과 괴롭힘 메시지를 전송합니다.",
+      "spam": "반복적으로 스팸 메시지를 다수의 사용자에게 전송하여 방해합니다."
+    }
+  },
+  "hi": {
+    "language_name": "Hindi",
+    "title": "WhatsApp नंबर की रिपोर्ट करें",
+    "your_name": "आपका नाम",
+    "number_to_report": "रिपोर्ट करने के लिए नंबर (+62…)",
+    "select_reason": "कारण चुनें",
+    "submit": "रिपोर्ट भेजें",
+    "email_subject": "तत्काल रिपोर्ट: WhatsApp नियम उल्लंघन",
+    "email_body": "प्रिय WhatsApp समर्थन टीम,\n\nमैं WhatsApp की सेवा शर्तों का गंभीर उल्लंघन करने वाले एक नंबर की तुरंत रिपोर्ट करना चाहता हूँ। नीचे दिया गया नंबर अन्य उपयोगकर्ताओं के लिए खतरा हो सकता है।\n\nकृपया जानकारी की समीक्षा करें और त्वरित कार्रवाई करें।",
+    "reported_number": "रिपोर्ट किया गया नंबर",
+    "regards": "सादर,\nएक चिंतित उपयोगकर्ता",
+    "reasons": {
+      "gambling": "यह नंबर अवैध जुआ को प्रोत्साहित करता है और उपयोगकर्ताओं को जुआ समूहों में जोड़ता है।",
+      "murder": "हिंसक धमकियां और हत्या को बढ़ावा देने वाले संदेश भेजे जा रहे हैं।",
+      "harassment": "सेक्सुअली अनुपयुक्त सामग्री और परेशान करने वाले संदेश भेजे जा रहे हैं।",
+      "spam": "बार-बार स्पैम संदेश कई उपयोगकर्ताओं को भेजे जा रहे हैं, जिससे उपयोग में असुविधा हो रही है।"
+    }
+  },
+  "ar": {
+    "language_name": "Arabic",
+    "title": "الإبلاغ عن رقم واتساب",
+    "your_name": "اسمك",
+    "number_to_report": "الرقم للإبلاغ (+62…)",
+    "select_reason": "اختر السبب",
+    "submit": "إرسال البلاغ",
+    "email_subject": "إبلاغ فوري: انتهاك لشروط واتساب",
+    "email_body": "فريق دعم واتساب المحترم،\n\nأود الإبلاغ على وجه السرعة عن خرق خطير لشروط استخدام واتساب من الرقم أدناه. قد يشكل هذا الرقم تهديداً لمستخدمي التطبيق.\n\nالرجاء التحقق من المعلومات واتخاذ الإجراءات اللازمة على الفور.",
+    "reported_number": "الرقم المبلغ عنه",
+    "regards": "وتفضلوا بقبول فائق الاحترام،\nمستخدم قلق",
+    "reasons": {
+      "gambling": "هذا الرقم يروج للقمار غير القانوني ويدعو المستخدمين للانضمام لمجموعات.",
+      "murder": "ينشر رسائل عنيفة تشجع على القتل.",
+      "harassment": "يرسل محتوى جنسي غير لائق ورسائل تحرش.",
+      "spam": "يرسل رسائل مزعجة بكثرة، مما يزعج عددًا كبيرًا من المستخدمين."
+    }
+  },
+  "tr": {
+    "language_name": "Turkish",
+    "title": "WhatsApp Numarasını Bildir",
+    "your_name": "Adınız",
+    "number_to_report": "Bildirilecek Numara (+62…)",
+    "select_reason": "Sebep Seçin",
+    "submit": "Bildirimi Gönder",
+    "email_subject": "Acil Bildirim: WhatsApp Hizmet Şartları İhlali",
+    "email_body": "WhatsApp Destek Ekibi’ne,\n\nWhatsApp Hizmet Şartlarını ciddi şekilde ihlal eden bir numarayı acilen bildirmek istiyorum. Aşağıdaki numara diğer kullanıcılar için tehlike oluşturabilir.\n\nLütfen bilgileri inceleyin ve derhal işlem başlatın.",
+    "reported_number": "Bildirilen Numara",
+    "regards": "Saygılarımla,\nEndişelenen Bir Kullanıcı",
+    "reasons": {
+      "gambling": "Bu numara yasa dışı kumarı teşvik ediyor ve kullanıcıları kumar gruplarına yönlendiriyor.",
+      "murder": "Şiddet içeren ve cinayet çağrısı yapan mesajlar yayıyor.",
+      "harassment": "Uygunsuz cinsel içerik ve taciz mesajları gönderiyor.",
+      "spam": "Birçok kullanıcıya tekrarlanan spam mesajları göndererek rahatsızlık yaratıyor."
+    }
+  },
+  "sv": {
+    "language_name": "Swedish",
+    "title": "Anmäl WhatsApp‑nummer",
+    "your_name": "Ditt namn",
+    "number_to_report": "Nummer att anmäla (+62…)",
+    "select_reason": "Välj orsak",
+    "submit": "Skicka anmälan",
+    "email_subject": "Omedelbar anmälan: Brott mot WhatsApp‑villkor",
+    "email_body": "Hej WhatsApp Support,\n\nJag vill anmäla ett allvarligt brott mot WhatsApps användarvillkor. Följande nummer kan utgöra fara för andra användare.\n\nVänligen granska informationen och vidta omedelbara åtgärder.",
+    "reported_number": "Anmält nummer",
+    "regards": "Vänliga hälsningar,\nEn oroad användare",
+    "reasons": {
+      "gambling": "Numret främjar olagligt spel och länkar till spelgrupper.",
+      "murder": "Sprider våldsamma meddelanden som uppmuntrar till mord.",
+      "harassment": "Skickar olämpligt sexuellt innehåll och trakasserier.",
+      "spam": "Skickar upprepade spam‑meddelanden till många användare."
+    }
+  },
+  "no": {
+    "language_name": "Norwegian",
+    "title": "Rapporter WhatsApp‑nummer",
+    "your_name": "Ditt navn",
+    "number_to_report": "Nummer å rapportere (+62…)",
+    "select_reason": "Velg grunn",
+    "submit": "Send rapport",
+    "email_subject": "Øyeblikkelig rapportering: Brudd på WhatsApp‑vilkår",
+    "email_body": "Kjære WhatsApp‑støtte,\n\nJeg ønsker å rapportere et alvorlig brudd på WhatsApps vilkår. Nedenfornevnte nummer kan utgjøre en trussel mot andre brukere.\n\nVennligst gjennomgå informasjonen og iverksett tiltak umiddelbart.",
+    "reported_number": "Rapportert nummer",
+    "regards": "Med vennlig hilsen,\nEn bekymret bruker",
+    "reasons": {
+      "gambling": "Nummeret promoterer ulovlig gambling og leder brukere til gamblingsgrupper.",
+      "murder": "Sprer voldelige meldinger som oppfordrer til drap.",
+      "harassment": "Sender upassende seksuelt innhold og trakasserende meldinger.",
+      "spam": "Sender gjentatte spam‑meldinger til mange brukere."
+    }
+  },
+  "da": {
+    "language_name": "Danish",
+    "title": "Rapporter WhatsApp‑nummer",
+    "your_name": "Dit navn",
+    "number_to_report": "Nummer at rapportere (+62…)",
+    "select_reason": "Vælg årsag",
+    "submit": "Send rapport",
+    "email_subject": "Øjeblikkelig rapport: Overtrædelse af WhatsApp‑betingelser",
+    "email_body": "Kære WhatsApp‑support,\n\nJeg vil straks anmelde et alvorligt brud på WhatsApps vilkår. Det nedenstående nummer udgør muligvis en risiko for andre brugere.\n\nGennemgå venligst informationen og tag passende handling.",
+    "reported_number": "Rapporteret nummer",
+    "regards": "Venlig hilsen,\nEn bekymret bruger",
+    "reasons": {
+      "gambling": "Nummeret fremmer ulovligt spil og fører brugere til spillegrupper.",
+      "murder": "Spredning af voldelige beskeder, der opfordrer til mord.",
+      "harassment": "Sender upassende seksuelt indhold og chikane.",
+      "spam": "Sender gentagne spam‑beskeder til mange brugere."
+    }
+  },
+  "fi": {
+    "language_name": "Finnish",
+    "title": "Ilmoita WhatsApp‑numero",
+    "your_name": "Nimesi",
+    "number_to_report": "Ilmoitettava numero (+62…)",
+    "select_reason": "Valitse syy",
+    "submit": "Lähetä ilmoitus",
+    "email_subject": "Välitön ilmoitus: Rikos WhatsApp‑ehdoissa",
+    "email_body": "Hei WhatsApp‑tuki,\n\nHaluan ilmoittaa kiireellisesti vakavasta WhatsApp‑käyttöehtojen rikkomuksesta. Alla oleva numero saattaa olla vaaraksi muille käyttäjille.\n\nTarkistakaa tiedot ja ryhtykää toimenpiteisiin välittömästi.",
+    "reported_number": "Ilmoitettu numero",
+    "regards": "Ystävällisin terveisin,\nHuolestunut käyttäjä",
+    "reasons": {
+      "gambling": "Numero edistää laitonta rahapelaamista ja ohjaa käyttäjiä peliryhmiin.",
+      "murder": "Levittää väkivaltaisia viestejä, jotka kehottaa murhaan.",
+      "harassment": "Lähettää sopimatonta seksuaalista sisältöä ja häirintää.",
+      "spam": "Lähettää toistuvia roskapostiviestejä useille käyttäjille."
+    }
+  },
+  "pl": {
+    "language_name": "Polish",
+    "title": "Zgłoś numer WhatsApp",
+    "your_name": "Twoje imię",
+    "number_to_report": "Numer do zgłoszenia (+62…)",
+    "select_reason": "Wybierz powód",
+    "submit": "Wyślij zgłoszenie",
+    "email_subject": "Natychmiastowe zgłoszenie: naruszenie warunków WhatsApp",
+    "email_body": "Drogi zespole wsparcia WhatsApp,\n\nChcę pilnie zgłosić poważne naruszenie Regulaminu WhatsApp. Numer poniżej może stanowić zagrożenie dla innych użytkowników.\n\nProszę o przeanalizowanie i podjęcie niezwłocznych działań.",
+    "reported_number": "Zgłaszany numer",
+    "regards": "Z wyrazami szacunku,\nZaniepokojony użytkownik",
+    "reasons": {
+      "gambling": "Numer promuje nielegalne hazardy i odsyła użytkowników do grup bukmacherskich.",
+      "murder": "Rozpowszechnia przemoc i nawołuje do zabójstw.",
+      "harassment": "Wysyła niestosowne treści seksualne i nękanie.",
+      "spam": "Rozsyła powtarzalne spamowe wiadomości do wielu użytkowników."
+    }
+  },
+  "cs": {
+    "language_name": "Czech",
+    "title": "Nahlásit číslo WhatsApp",
+    "your_name": "Vaše jméno",
+    "number_to_report": "Číslo k nahlášení (+62…)",
+    "select_reason": "Vyberte důvod",
+    "submit": "Odeslat oznámení",
+    "email_subject": "Okamžité oznámení: porušení podmínek WhatsApp",
+    "email_body": "Vážený WhatsApp podpůrný týme,\n\nchci nahlásit vážné porušení Podmínek služby WhatsApp. Níže uvedené číslo může ohrozit ostatní uživatele.\n\nProsím o okamžité přezkoumání a přijetí opatření.",
+    "reported_number": "Nahlášené číslo",
+    "regards": "S pozdravem,\nZnepokojený uživatel",
+    "reasons": {
+      "gambling": "Číslo propaguje nelegální hazard a odkazuje na hazardní skupiny.",
+      "murder": "Šíří násilné zprávy nabádající k vraždě.",
+      "harassment": "Posílá nevhodný sexuální obsah a obtěžování.",
+      "spam": "Opakovaně zasílá spam mnoha uživatelům."
+    }
+  },
+  "hu": {
+    "language_name": "Hungarian",
+    "title": "WhatsApp‑szám jelentése",
+    "your_name": "A neved",
+    "number_to_report": "Jelentendő szám (+62…)",
+    "select_reason": "Válassz indokot",
+    "submit": "Jelentés küldése",
+    "email_subject": "Azonnali jelentés: WhatsApp feltételek megsértése",
+    "email_body": "Tisztelt WhatsApp‑támogatás,\n\nAzonnali módon szeretnék jelenteni egy súlyos megsértést a WhatsApp használati feltételeiben. Az alábbi szám veszélyt jelenthet más felhasználókra nézve.\n\nKérem, vizsgálják meg és intézkedjenek haladéktalanul.",
+    "reported_number": "Jelentett szám",
+    "regards": "Üdvözlettel,\nEgy aggódó felhasználó",
+    "reasons": {
+      "gambling": "A szám illegális szerencsejátékot népszerűsít és csoportokhoz irányít.",
+      "murder": "Erőszakos, gyilkosságra buzdító üzeneteket terjeszt.",
+      "harassment": "Küld nem megfelelő szexuális tartalmat és zaklat.",
+      "spam": "Ismétlődő spam üzeneteket küld sok felhasználónak."
+    }
+  },
+  "ro": {
+    "language_name": "Romanian",
+    "title": "Raportați număr WhatsApp",
+    "your_name": "Numele dvs.",
+    "number_to_report": "Număr de raportat (+62…)",
+    "select_reason": "Selectați motivul",
+    "submit": "Trimite raportul",
+    "email_subject": "Raport imediat: Abatere de la termenii WhatsApp",
+    "email_body": "Echipa de suport WhatsApp,\n\nDoresc să raportez de urgență o încălcare gravă a Termenilor WhatsApp. Numărul de mai jos poate pune în pericol alți utilizatori.\n\nVă rog să analizați și să luați măsuri prompt.",
+    "reported_number": "Număr raportat",
+    "regards": "Cu stimă,\nUn utilizator îngrijorat",
+    "reasons": {
+      "gambling": "Numărul promovează jocuri de noroc ilegale și grupuri de pariuri.",
+      "murder": "Răspândește mesaje violente incitând la crimă.",
+      "harassment": "Trimite conținut sexual inadecvat și hărțuire.",
+      "spam": "Trimite mesaje spam repetate către mulți utilizatori."
+    }
+  },
+  "es": {
+    "language_name": "Spanish",
+    "title": "Denunciar número de WhatsApp",
+    "your_name": "Tu nombre",
+    "number_to_report": "Número a denunciar (+62…)",
+    "select_reason": "Selecciona motivo",
+    "submit": "Enviar denuncia",
+    "email_subject": "Reporte urgente: incumplimiento de normas de WhatsApp",
+    "email_body": "Estimado equipo de soporte de WhatsApp,\n\nquiero reportar con urgencia una violación grave de los Términos de Servicio. El número indicado podría poner en riesgo a otros usuarios.\n\nPor favor, revisen y actúen lo antes posible.",
+    "reported_number": "Número denunciado",
+    "regards": "Atentamente,\nUn usuario preocupado",
+    "reasons": {
+      "gambling": "El número promueve apuestas ilegales y dirige a grupos de juego.",
+      "murder": "Difunde mensajes violentos que incitan al asesinato.",
+      "harassment": "Envía contenido sexual inapropiado y acoso.",
+      "spam": "Envía spam repetitivo a muchos usuarios."
+    }
+  },
+  "fr": {
+    "language_name": "French",
+    "title": "Signaler un numéro WhatsApp",
+    "your_name": "Votre nom",
+    "number_to_report": "Numéro à signaler (+62…)",
+    "select_reason": "Sélectionnez la raison",
+    "submit": "Envoyer signalement",
+    "email_subject": "Signalement urgent : violation des conditions WhatsApp",
+    "email_body": "Chère équipe de support WhatsApp,\n\nje souhaite signaler en urgence une violation grave des conditions d’utilisation. Le numéro ci-dessous pourrait mettre d’autres utilisateurs en danger.\n\nMerci de vérifier et d’agir immédiatement.",
+    "reported_number": "Numéro signalé",
+    "regards": "Cordialement,\nUn utilisateur préoccupé",
+    "reasons": {
+      "gambling": "Le numéro fait la promotion de jeux d’argent illégaux et redirige vers des groupes de paris.",
+      "murder": "Il diffuse des messages violents incitant à la mort.",
+      "harassment": "Envoie du contenu sexuel inapproprié et du harcèlement.",
+      "spam": "Envoie du spam répété à plusieurs utilisateurs."
+    }
+  },
+  "pt": {
+    "language_name": "Portuguese",
+    "title": "Denunciar número do WhatsApp",
+    "your_name": "Seu nome",
+    "number_to_report": "Número a denunciar (+62…)",
+    "select_reason": "Selecione o motivo",
+    "submit": "Enviar denúncia",
+    "email_subject": "Relato urgente: violação dos termos do WhatsApp",
+    "email_body": "Prezada equipe do WhatsApp,\n\nvenho relatar com urgência uma violação séria dos Termos de Serviço. O número abaixo pode representar risco a outros usuários.\n\nSolicito análise e ação imediata.",
+    "reported_number": "Número relatado",
+    "regards": "Atenciosamente,\nUsuário preocupado",
+    "reasons": {
+      "gambling": "O número promove apostas ilegais e direciona a grupos de jogo.",
+      "murder": "Compartilha mensagens violentas incitando assassinato.",
+      "harassment": "Envia conteúdo sexual impróprio e assédio.",
+      "spam": "Envia spam repetido para muitos usuários."
+    }
+  },
+  "it": {
+    "language_name": "Italian",
+    "title": "Segnala numero WhatsApp",
+    "your_name": "Il tuo nome",
+    "number_to_report": "Numero da segnalare (+62…)",
+    "select_reason": "Seleziona motivo",
+    "submit": "Invia segnalazione",
+    "email_subject": "Segnalazione urgente: violazione condizioni WhatsApp",
+    "email_body": "Gentile supporto WhatsApp,\n\ndesidero segnalare urgentemente una grave violazione delle condizioni d’uso. Il numero seguente potrebbe mettere a rischio altri utenti.\n\nVi prego di valutare e intervenire quanto prima.",
+    "reported_number": "Numero segnalato",
+    "regards": "Cordiali saluti,\nUtente preoccupato",
+    "reasons": {
+      "gambling": "Promuove gioco d’azzardo illegale e gruppi di scommesse.",
+      "murder": "Diffonde messaggi violenti che incitano all’omicidio.",
+      "harassment": "Invia contenuti sessuali inappropriati e molestie.",
+      "spam": "Invia spam ripetuto a molti utenti."
+    }
+  },
+  "ru": {
+    "language_name": "Russian",
+    "title": "Сообщить номер WhatsApp",
+    "your_name": "Ваше имя",
+    "number_to_report": "Номер для жалобы (+62…)",
+    "select_reason": "Выберите причину",
+    "submit": "Отправить жалобу",
+    "email_subject": "Срочное сообщение: нарушение правил WhatsApp",
+    "email_body": "Уважаемая служба поддержки,\n\nсообщаю срочно о серьезном нарушении правил WhatsApp. Указанный номер может представлять угрозу другим пользователям.\n\nПожалуйста, проверьте и примите меры.",
+    "reported_number": "Сообщаемый номер",
+    "regards": "С уважением,\nОзабоченный пользователь",
+    "reasons": {
+      "gambling": "Продвигает незаконный азарт и группы.",
+      "murder": "Распространяет насильственные призывы к убийству.",
+      "harassment": "Отправляет неприличный сексуальный контент и домогается.",
+      "spam": "Рассылает повторяющийся спам многим пользователям."
+    }
+  },
+  "zh": {
+    "language_name": "Chinese",
+    "title": "举报 WhatsApp 号码",
+    "your_name": "您的姓名",
+    "number_to_report": "举报号码 (+62…)",
+    "select_reason": "选择原因",
+    "submit": "提交举报",
+    "email_subject": "紧急举报：违反 WhatsApp 条款",
+    "email_body": "WhatsApp 支持团队：\n\n我紧急举报一个严重违反服务条款的号码。该号码可能危害其他用户。\n\n请核实并立即处理。",
+    "reported_number": "举报号码",
+    "regards": "此致，\n关注用户",
+    "reasons": {
+      "gambling": "推广非法赌博，加入赌博群组。",
+      "murder": "传播暴力与杀人威胁信息。",
+      "harassment": "发送不当性内容及骚扰。",
+      "spam": "重复群发垃圾信息扰乱用户。"
+    }
+  },
+  "ja": {
+    "language_name": "Japanese",
+    "title": "WhatsApp番号を通報",
+    "your_name": "あなたの名前",
+    "number_to_report": "通報する番号 (+62…)",
+    "select_reason": "理由を選択",
+    "submit": "通報送信",
+    "email_subject": "緊急通報：WhatsApp規約違反",
+    "email_body": "WhatsAppサポートチーム御中：\n\n規約違反の可能性が高い番号について緊急に通報します。他ユーザーへの危険性があります。\n\nご対応のほど、よろしくお願いいたします。",
+    "reported_number": "通報番号",
+    "regards": "敬具\n利用者より",
+    "reasons": {
+      "gambling": "違法ギャンブルを促進し、グループに誘導。",
+      "murder": "殺害を助長する暴力的メッセージ。",
+      "harassment": "不適切な性的内容と嫌がらせ。",
+      "spam": "多数にスパムを繰り返し送信。"
+    }
+  },
+  "ko": {
+    "language_name": "Korean",
+    "title": "WhatsApp 번호 신고",
+    "your_name": "당신의 이름",
+    "number_to_report": "신고할 번호 (+62…)",
+    "select_reason": "사유 선택",
+    "submit": "신고 전송",
+    "email_subject": "긴급 신고: WhatsApp 약관 위반",
+    "email_body": "WhatsApp 지원팀께,\n\n약관을 심각하게 위반하는 번호에 대해 즉시 신고합니다. 다른 사용자에게 위협이 될 수 있습니다.\n\n확인 후 조치 부탁드립니다.",
+    "reported_number": "신고 번호",
+    "regards": "감사합니다.\n사용자 드림",
+    "reasons": {
+      "gambling": "불법 도박을 조장하고 그룹에 유도.",
+      "murder": "살인을 부추기는 폭력적 메시지.",
+      "harassment": "부적절한 성적 내용 및 괴롭힘.",
+      "spam": "대량 스팸 반복 전송."
+    }
+  },
+  "ar": {
+    "language_name": "Arabic",
+    "title": "الإبلاغ عن رقم واتساب",
+    "your_name": "اسمك",
+    "number_to_report": "الرقم (+62…)",
+    "select_reason": "اختر السبب",
+    "submit": "إرسال البلاغ",
+    "email_subject": "بلاغ عاجل: انتهاك شروط واتساب",
+    "email_body": "فريق دعم واتساب:\n\nأود الإبلاغ فوراً عن رقم ينتهك شروط الاستخدام بشكل جدي وقد يهدد المستخدمين الآخرين.\n\nيرجى التحقق واتخاذ الإجراءات المناسبة.",
+    "reported_number": "الرقم المبلغ عنه",
+    "regards": "مع التحية،\nمستخدم قلق",
+    "reasons": {
+      "gambling": "يروج للقمار غير القانوني ويحوّل للمجموعات.",
+      "murder": "ينشر رسائل تهدد بالقتل.",
+      "harassment": "يرسل محتوى جنسي غير لائق وتحريض.",
+      "spam": "يرسل رسائل مزعجة متكررة."
+    }
+  },
+  "hi": {
+    "language_name": "Hindi",
+    "title": "WhatsApp नंबर रिपोर्ट करें",
+    "your_name": "आपका नाम",
+    "number_to_report": "रिपोर्ट करने वाला नंबर (+62…)",
+    "select_reason": "कारण चुनें",
+    "submit": "रिपोर्ट भेजें",
+    "email_subject": "तत्काल रिपोर्ट: WhatsApp नियम उल्लंघन",
+    "email_body": "WhatsApp समर्थन टीम,\n\nमैं एक गंभीर नियम उल्लंघन करने वाले नंबर की तुरंत रिपोर्ट करना चाहता हूँ। यह अन्य उपयोगकर्ताओं के लिए खतरा हो सकता है।\n\nकृपया जांचें और कार्रवाई करें।",
+    "reported_number": "रिपोर्ट किया गया नंबर",
+    "regards": "सादर,\nएक चिंतित उपयोगकर्ता",
+    "reasons": {
+      "gambling": "यह अवैध जुआ का प्रचार करता है और समूहों में लिंक करता है।",
+      "murder": "हत्या को बढ़ावा देने वाले हिंसक संदेश।",
+      "harassment": "अनुचित यौन सामग्री और उत्पीड़न भेजता है।",
+      "spam": "अनेक उपयोगकर्ताओं को पुनरावृत्त स्पैम संदेश भेजता है।"
+    }
+  },
+  "tr": {
+    "language_name": "Turkish",
+    "title": "WhatsApp Numara Bildir",
+    "your_name": "Adınız",
+    "number_to_report": "Bildirilecek numara (+62…)",
+    "select_reason": "Sebep seçin",
+    "submit": "Bildir",
+    "email_subject": "Acil Bildirim: WhatsApp Kuralları İhlali",
+    "email_body": "WhatsApp destek ekibi,\n\nciddi kural ihlali yapan bir numarayı acil olarak bildiriyorum. Diğer kullanıcılar için tehlike oluşturabilir.\n\nLütfen değerlendirin ve gerekli adımları atın.",
+    "reported_number": "Bildirilen numara",
+    "regards": "Saygılarımla,\nEndişeli kullanıcı",
+    "reasons": {
+      "gambling": "Yasa dışı bahis yapıyor ve gruplara yönlendiriyor.",
+      "murder": "Öldürme çağrısı yapan şiddet içeren mesajlar yayıyor.",
+      "harassment": "Uygunsuz cinsel içerik ve taciz içeriyor.",
+      "spam": "Çok sayıda kullanıcıya sürekli spam gönderiyor."
+    }
+  },
+  "th": {
+    "language_name": "Thai",
+    "title": "รายงานหมายเลข WhatsApp",
+    "your_name": "ชื่อของคุณ",
+    "number_to_report": "หมายเลขที่ต้องการรายงาน (+62…)",
+    "select_reason": "เลือกเหตุผล",
+    "submit": "ส่งรายงาน",
+    "email_subject": "รายงานด่วน: ฝ่าฝืนข้อกำหนด WhatsApp",
+    "email_body": "ถึงทีมสนับสนุน WhatsApp,\n\nฉันต้องการรายงานหมายเลขที่ละเมิดข้อกำหนดการใช้งานของ WhatsApp อย่างรุนแรง ซึ่งอาจเป็นอันตรายต่อผู้ใช้รายอื่น\n\nกรุณาตรวจสอบและดำเนินการโดยด่วน",
+    "reported_number": "หมายเลขที่รายงาน",
+    "regards": "ขอแสดงความนับถือ,\nผู้ใช้งานที่เป็นห่วง",
+    "reasons": {
+      "gambling": "ส่งเสริมการพนันผิดกฎหมายและลิงก์ไปยังกลุ่มพนัน",
+      "murder": "เผยแพร่ข้อความที่เชิญชวนให้ฆ่า",
+      "harassment": "ส่งเนื้อหาทางเพศไม่เหมาะสมและการคุกคาม",
+      "spam": "ส่งสแปมซ้ำๆ ไปยังผู้ใช้จำนวนมาก"
+    }
+  },
+  "vi": {
+    "language_name": "Vietnamese",
+    "title": "Báo cáo số WhatsApp",
+    "your_name": "Tên của bạn",
+    "number_to_report": "Số cần báo cáo (+62…)",
+    "select_reason": "Chọn lý do",
+    "submit": "Gửi báo cáo",
+    "email_subject": "Báo cáo khẩn: vi phạm điều khoản WhatsApp",
+    "email_body": "Đội ngũ hỗ trợ WhatsApp,\n\nTôi muốn khẩn cấp báo cáo một vi phạm nghiêm trọng điều khoản dịch vụ. Số dưới đây có thể gây nguy hiểm cho người dùng khác.\n\nXin kiểm tra và xử lý nhanh chóng.",
+    "reported_number": "Số báo cáo",
+    "regards": "Trân trọng,\nNgười dùng quan tâm",
+    "reasons": {
+      "gambling": "Quảng cáo cờ bạc bất hợp pháp và liên kết đến nhóm cờ bạc.",
+      "murder": "Lan truyền nội dung bạo lực, kích động giết người.",
+      "harassment": "Gửi nội dung tình dục không phù hợp và quấy rối.",
+      "spam": "Gửi spam lặp lại đến nhiều người dùng."
+    }
+  },
+  "el": {
+    "language_name": "Greek",
+    "title": "Αναφορά αριθμού WhatsApp",
+    "your_name": "Το όνομά σας",
+    "number_to_report": "Αριθμός προς αναφορά (+62…)",
+    "select_reason": "Επιλέξτε λόγο",
+    "submit": "Υποβολή αναφοράς",
+    "email_subject": "Επείγουσα αναφορά: παράβαση όρων WhatsApp",
+    "email_body": "Αξιότιμη ομάδα υποστήριξης WhatsApp,\n\nΘα ήθελα να αναφέρω επειγόντως σοβαρή παραβίαση των όρων χρήσης. Ο παρακάτω αριθμός μπορεί να θέσει σε κίνδυνο άλλους χρήστες.\n\nΠαρακαλούμε ελέγξτε και δράστε άμεσα.",
+    "reported_number": "Αναφερόμενος αριθμός",
+    "regards": "Με εκτίμηση,\nΈνας ανήσυχος χρήστης",
+    "reasons": {
+      "gambling": "Προωθεί παράνομο τζόγο και συνδέει σε ομάδες.",
+      "murder": "Διανέμει βίαια μηνύματα που υποκινούν φόνο.",
+      "harassment": "Στέλνει ακατάλληλο σεξουαλικό περιεχόμενο και παρενόχληση.",
+      "spam": "Στέλνει επαναλαμβανόμενο spam σε πολλούς χρήστες."
+    }
+  },
+  "he": {
+    "language_name": "Hebrew",
+    "title": "דווח על מספר וואטסאפ",
+    "your_name": "השם שלך",
+    "number_to_report": "מספר לדיווח (+62…)",
+    "select_reason": "בחר סיבה",
+    "submit": "שלח דיווח",
+    "email_subject": "דיווח דחוף: הפרת תנאי WhatsApp",
+    "email_body": "לצוות התמיכה של WhatsApp,\n\nברצוני לדווח בדחיפות על מספר שמפר בחומרה את תנאי השירות. ייתכן שהמספר מסכן משתמשים אחרים.\n\nנא לבדוק ולפעול במהירות.",
+    "reported_number": "המספר המדווח",
+    "regards": "בברכה,\nמשתמש מודאג",
+    "reasons": {
+      "gambling": "מעודד הימורים לא חוקיים ומפנה לקבוצות.",
+      "murder": "מפיץ הודעות עתירות אלימות וקוראות לרצח.",
+      "harassment": "שולח תוכן מיני בלתי הולם והטרדה.",
+      "spam": "שולח ספאם משוכתב למשתמשים רבים."
+    }
+  },
+  "bn": {
+    "language_name": "Bengali",
+    "title": "WhatsApp নম্বর রিপোর্ট করুন",
+    "your_name": "আপনার নাম",
+    "number_to_report": "রিপোর্ট করার নম্বর (+62…)",
+    "select_reason": "কারণ নির্বাচন করুন",
+    "submit": "রিপোর্ট পাঠান",
+    "email_subject": "জরুরি রিপোর্ট: WhatsApp শর্ত লঙ্ঘন",
+    "email_body": "WhatsApp সাপোর্ট টিম,\n\nআমি একটি জরুরি প্রতিবেদনের জন্য লিখছি—নিচের নম্বরে WhatsApp এর টার্মস লঙ্ঘন হচ্ছে, যা ব্যবহারকারীদের জন্য বিপদ তৈরি করছে।\n\nদয়া করে তথ্য যাচাই করুন এবং দ্রুত পদক্ষেপ নিন।",
+    "reported_number": "রিপোর্টকৃত নম্বর",
+    "regards": "শুভেচ্ছান্তে,\nএকজন উদ্বিগ্ন ব্যবহারকারী",
+    "reasons": {
+      "gambling": "এই নম্বরটি অবৈধ জুয়া প্রচার করছে এবং ব্যবহারকারীদের গ্যাম্বলিং গ্রুপে নিয়ে যাচ্ছে।",
+      "murder": "নম্বরটি সহিংস বার্তা ছড়াচ্ছে, হত্যার আহ্বান করছে।",
+      "harassment": "যৌনভাবে অনুপযুক্ত বার্তা এবং হয়রানি পাঠাচ্ছে।",
+      "spam": "অনেক ব্যবহারকারীর কাছে বারবার স্প্যাম পাঠাচ্ছে।"
+    }
+  },
+  "ur": {
+    "language_name": "Urdu",
+    "title": "WhatsApp نمبر رپورٹ کریں",
+    "your_name": "آپ کا نام",
+    "number_to_report": "رپورٹ کرنے والا نمبر (+62…)",
+    "select_reason": "وجہ منتخب کریں",
+    "submit": "رپورٹ بھیجیں",
+    "email_subject": "فوری رپورٹ: WhatsApp کی شرائط کی خلاف ورزی",
+    "email_body": "WhatsApp سپورٹ ٹیم،\n\nمیں فوری طور پر ایک سنگین خلاف ورزی کی اطلاع دینا چاہتا ہوں۔ نیچے دیا گیا نمبر دیگر صارفین کے لیے خطرناک ہو سکتا ہے۔\n\nبراہِ کرم معلومات دیکھیں اور فوری کارروائی کریں۔",
+    "reported_number": "رپورٹ کیا گیا نمبر",
+    "regards": "خیراندیش،\nایک فکر مند صارف",
+    "reasons": {
+      "gambling": "یہ نمبر غیر قانونی جوئے کو فروغ دے رہا ہے اور گروپوں کی رہنمائی کر رہا ہے۔",
+      "murder": "قتل کی ترغیب دینے والے پرتشدد پیغامہے۔",
+      "harassment": "نامناسب جنسی مواد اور ہراسگی بھیج رہا ہے۔",
+      "spam": "متعدد صارفین کو بار بار اسپیم بھیج رہا ہے۔"
+    }
+  },
+  "ro": {
+    "language_name": "Romanian",
+    "title": "Raportează număr WhatsApp",
+    "your_name": "Numele tău",
+    "number_to_report": "Număr de raportat (+62…)",
+    "select_reason": "Selectează motivul",
+    "submit": "Trimite raportul",
+    "email_subject": "Raport urgent: încălcare termeni WhatsApp",
+    "email_body": "Echipa de suport WhatsApp,\n\nDoresc să raportez urgent un număr care încalcă termenii de serviciu și poate pune în pericol utilizatorii.\n\nVă rog să verificați informațiile și să luați măsuri rapide.",
+    "reported_number": "Număr raportat",
+    "regards": "Cu stimă,\nUn utilizator îngrijorat",
+    "reasons": {
+      "gambling": "Promovează jocuri de noroc ilegale și grupuri de pariuri.",
+      "murder": "Răspândește mesaje de violență și instigare la crimă.",
+      "harassment": "Trimite conținut sexual inadecvat și hărțuire.",
+      "spam": "Trimite spam repetitiv către mulți utilizatori."
+    }
+  },
+  "az": {
+    "language_name": "Azerbaijani",
+    "title": "WhatsApp nömrəsini bildir",
+    "your_name": "Adınız",
+    "number_to_report": "Bildiriləcək nömrə (+62…)",
+    "select_reason": "Səbəb seçin",
+    "submit": "Hesabat göndər",
+    "email_subject": "Təcili hesabat: WhatsApp şərtlərinin pozulması",
+    "email_body": "WhatsApp dəstək komandası,\n\nXidmət şərtlərini ciddi şəkildə pozan bir nömrəni təcili olaraq bildirirəm. Bu nömrə digər istifadəçilər üçün təhlükə yaratmış ola bilər.\n\nZəhmət olmasa məlumatları yoxlayın və müvafiq tədbirlər görün.",
+    "reported_number": "Bildirilən nömrə",
+    "regards": "Hörmətlə,\nNarahat istifadəçi",
+    "reasons": {
+      "gambling": "Bu nömrə qanunsuz qumarı təbliğ edir və istifadəçiləri qumar qruplarına yönləndirir.",
+      "murder": "Qətl çağırışları ilə şiddət mesajları yayır.",
+      "harassment": "Uyğunsuz cinsi məzmun və təhqirlər göndərir.",
+      "spam": "Çox sayda istifadəçiyə təkrarlanan spam göndərir."
+    }
+  },
+  "sw": {
+    "language_name": "Swahili",
+    "title": "Ripoti nambari ya WhatsApp",
+    "your_name": "Jina lako",
+    "number_to_report": "Nambari ya kuripoti (+62…)",
+    "select_reason": "Chagua sababu",
+    "submit": "Tuma Ripoti",
+    "email_subject": "Ripoti ya Haraka: ukiukaji wa WhatsApp",
+    "email_body": "Timu ya msaada WhatsApp,\n\nNataka kuripoti haraka nambari inayokiuka masharti ya huduma na inaweza kuwa hatari kwa watumiaji wengine.\n\nTafadhali angalia taarifa na chukua hatua haraka.",
+    "reported_number": "Nambari iliyoripotiwa",
+    "regards": "Kwa heshima,\nMtumiaji mwenye wasi wasi",
+    "reasons": {
+      "gambling": "Inapendekeza kamari isiyo halali na inaongoza kwenye vikundi vya kamari.",
+      "murder": "Inasambaza ujumbe wa kikatili wa kuuawa.",
+      "harassment": "Inatuma maudhui ya kingono yasiyofaa na unyanyasaji.",
+      "spam": "Inatuma spamu mara kwa mara kwa watumiaji wengi."
+    }
+  },
+  "fa": {
+    "language_name": "Persian",
+    "title": "گزارش شماره واتساپ",
+    "your_name": "نام شما",
+    "number_to_report": "شماره برای گزارش (+62…)",
+    "select_reason": "دلیل را انتخاب کنید",
+    "submit": "ارسال گزارش",
+    "email_subject": "گزارش فوری: نقض شرایط واتساپ",
+    "email_body": "تیم پشتیبانی واتساپ,\n\nمن می‌خواهم یک شماره که به‌طور جدی شرایط خدمات را نقض کرده است، گزارش دهم—این شماره ممکن است برای کاربران دیگر خطرناک باشد.\n\nلطفاً اطلاعات را بررسی کرده و سریعاً اقدام کنید.",
+    "reported_number": "شماره گزارش‌شده",
+    "regards": "با احترام,\nیک کاربر نگران",
+    "reasons": {
+      "gambling": "این شماره قمار غیرقانونی را ترویج می‌دهد و کاربران را به گروه‌های قمار هدایت می‌کند.",
+      "murder": "پیام‌هایی با محتوای خشونت و تشویق به قتل منتشر می‌کند.",
+      "harassment": "محتوای جنسی نامناسب و آزار و اذیت ارسال می‌کند.",
+      "spam": "پیام‌های انبوه و تکراری اسپم ارسال می‌کند."
+    }
+  },
+  "kk": {
+    "language_name": "Kazakh",
+    "title": "WhatsApp нөмірін хабарлау",
+    "your_name": "Сіздің атыңыз",
+    "number_to_report": "Хабарланатын нөмір (+62…)",
+    "select_reason": "Себеп таңдаңыз",
+    "submit": "Хабар жіберу",
+    "email_subject": "Шұғыл хабарламас: WhatsApp шарттарының бұзылуы",
+    "email_body": "WhatsApp қолдау тобы,\n\nМен WhatsApp қызмет көрсету шарттарын ауыр түрде бұзатын нөмірді шұғыл хабарлаймын. Бұл нөмір басқа пайдаланушыларға қауіпті болуы мүмкін.\n\nАқпаратты тексеріп, жедел әрекет жасауды сұраймын.",
+    "reported_number": "Хабарланған нөмір",
+    "regards": "Құрметпен,\nҚамқор пайдаланушы",
+    "reasons": {
+      "gambling": "Бұл нөмір заңсыз құмар ойындарын насихаттайды және топтарға бағыттайды.",
+      "murder": "Қатыгездікке шақыратын зорлық-зомбылық хабарларын таратады.",
+      "harassment": "Орынды емес жыныстық мазмұн мен қудалау жолдайды.",
+      "spam": "Көптеген қолданушыларға қайталанатын спам хабарлар жібереді."
+    }
+  },
+  "my": {
+    "language_name": "Burmese",
+    "title": "WhatsApp နံပါတ် ထပ်မံ သတင်းပို့ရန်",
+    "your_name": "သင့်နာမည်",
+    "number_to_report": "သတင်းပို့ရန် နံပါတ် (+62…)",
+    "select_reason": "အကြောင်းဖေါ်ရွေးပါ",
+    "submit": "တင်ပြပါ",
+    "email_subject": "အမြန်တုံ့ပြန်ချက်လိုအပ်: WhatsApp စည်းမျဉ်းချိုးဖောက်မှု",
+    "email_body": "WhatsApp အထောက်အပံ့အဖွဲ့,\n\nWhatsApp ၏ Terms of Service ပြင်းပြင်းထန်ထန်ချိုးဖောက်နေသောနံပါတ်တစ်ခုကို အရေးပေါ်အထိ report လုပ်လိုက်ပါသည်။ ဤနံပါတ်သည် အသုံးပြုသူများအတွက် အန္တရာယ်ဖြစ်စေနိုင်ပါသည်။\n\nကျေးဇူးပြုပြီး အချက်အလက်များကို စစ်ဆေးပြီး ချက်ချင်း လုပ်ဆောင်ပါ။",
+    "reported_number": "တင်ပြထားသော နံပါတ်",
+    "regards": "လေးစားစွာဖြင့်,\nစိတ်ပူမိသော အသုံးပြုသူ",
+    "reasons": {
+      "gambling": "ဤနံပါတ်သည် တရားမဝင်ကစားကွင်းများကို ထောက်ပံ့ကာ အသုံးပြုသူများကို ှဖွဲ့ထဲသို့ ဦးတည်စေသည်။",
+      "murder": "သတ်ဖြတ်မှုကို လှုံ့့ဆော်သော အကြမ်းဖက် မက်ဆေ့ခ်ျများ ပျံ့နှံ့သည်။",
+      "harassment": "သင့်တော်မည့် လိင်ဆိုင်ရာ ဖြုန့်ٽيနှင့် အပေါ်ယံခံသက်သေ ပြုတယ်။",
+      "spam": "အသုံးပြုသူများစွာအား မပြတ် spam မက်ဆေ့ခ်ျများပေးပို့သည်။"
+    }
+  },
+  "ne": {
+    "language_name": "Nepali",
+    "title": "WhatsApp नम्बर रिपोर्ट गर्नुहोस्",
+    "your_name": "तपाईंको नाम",
+    "number_to_report": "रिपोर्ट गर्नुपर्ने नम्बर (+62…)",
+    "select_reason": "कारण छान्नुहोस्",
+    "submit": "रिपोर्ट पठाउनुहोस्",
+    "email_subject": "तत्काल रिपोर्ट: WhatsApp सर्त उल्लंघन",
+    "email_body": "WhatsApp समर्थन टोली,\n\nम एक गम्भीर सर्त उल्लंघन भएको नम्बर तुरुन्त रिपोर्ट गर्न चाहन्छु। यो नम्बर अरु प्रयोगकर्ताका लागि खतरनाक हुन सक्छ।\n\nकृपया जानकारी जाँच गरी आवश्यक कार्य गर्नुहोस्।",
+    "reported_number": "रिपोर्ट गरिएको नम्बर",
+    "regards": "शुभकामनासहित,\nचिन्तित प्रयोगकर्ता",
+    "reasons": {
+      "gambling": "यो नम्बर अवैध जुवा प्रवर्द्धन गर्दछ र समूहहरूमा लगाउँछ।",
+      "murder": "हत्या प्रोत्साहित गर्ने हिंसात्मक सन्देशहरू पठाउँछ।",
+      "harassment": "अश्लील यौन सामग्री र उत्पीडन गर्छ।",
+      "spam": "धेरै प्रयोगकर्तालाई बारम्बार स्प्याम सन्देश पठाउँछ।"
+    }
+  },
+  "hy": {
+    "language_name": "Armenian",
+    "title": "WhatsApp համարի հաղորդում",
+    "your_name": "Ձեր անունը",
+    "number_to_report": "Համար հաղորդելու համար (+62…)",
+    "select_reason": "Ընտրեք պատճառը",
+    "submit": "Ներկայացնել հաղորդում",
+    "email_subject": "Արտակարգ զեկույց՝ WhatsApp կանոնների խախտում",
+    "email_body": "WhatsApp աջակցման թիմ,\n\nԵս շտապ հաղորդում եմ մի համար, որը խիստ խախտում է ծառայության կանոնները։ Այս թիվը կարող է վտանգ ներկայացնել մյուս օգտատերերի համար։\n\nԽնդրում եմ ստուգեք և ձեռնարկեք համապատասխան միջոցներ։",
+    "reported_number": "Հաղորդված թիվ",
+    "regards": "Հարգանքներով,\nՓնտրող օգտատեր",
+    "reasons": {
+      "gambling": "Այս թիվը խրախուսում է ապօրինի զուգարանակցություն և ուղորդում է կազինո խմբեր։",
+      "murder": "Տարածվում են բռնության կոչեր ու սպանության կոչեր։",
+      "harassment": "Ուղարկվում է անհարմար սեռական բովանդակություն և ստվերառություն։",
+      "spam": "Նույն հաղորդագրությունները կրկնակի ուղարկում է բազմաթիվ օգտատերերի։"
+    }
+  },
+  "km": {
+    "language_name": "Khmer",
+    "title": "រាយការណ៍លេខ WhatsApp",
+    "your_name": "ឈ្មោះរបស់អ្នក",
+    "number_to_report": "លេខត្រូវរាយការណ៍ (+62…)",
+    "select_reason": "ជ្រើសរើសហេតុផល",
+    "submit": "ផ្ញើរប្រេតិកម្ម",
+    "email_subject": "របាយការណ៍បន្ទាន់: ការបំពានលក្ខខណ្ឌ WhatsApp",
+    "email_body": "ក្រុមគាំទ្រ WhatsApp,\n\nខ្ញុំចង់រាយការណ៍ភ្លាមៗពីលេខមួយដែលកំពុងបំពានលក្ខខណ្ឌនៃសេវាកម្ម។ លេខនេះអាចគំរាមកំហែងចំពោះអ្នកប្រើប្រាស់ផ្សេងទៀត។\n\nសូមពិនិត្យព័ត៌មាន និងអនុវត្តសកម្មភាពឲ្យបានឆាប់។",
+    "reported_number": "លេខដែលបានរាយការណ៍",
+    "regards": "ដោយក្តីគោរព,\nអ្នកប្រើប្រាស់ដែលមានការព្រួយបារម្ភ",
+    "reasons": {
+      "gambling": "លេខនេះផ្សព្វផ្សាយការលេងល្បែងពីរ និងណែនាំទៅក្រុមបេងវិកិយា។",
+      "murder": "នៅមានសារ​ហិង្សាដែលហៅឲ្យសម្លាប់។",
+      "harassment": "ផ្ញើខ្លឹមសារឯកសារ​ភេទ​ដែលមិនសមរម្យ និងរំលោភ។",
+      "spam": "ផ្ញើសារ spam ស្ទើរសឹកច្រើនដល់អ្នកប្រើប្រាស់ជាច្រើន។"
+    }
+  },
+  "tg": {
+    "language_name": "Tajik",
+    "title": "Ҳисоботи рақами WhatsApp",
+    "your_name": "Номи шумо",
+    "number_to_report": "Рақами барои гузориш (+62…)",
+    "select_reason": "Себабро интихоб кунед",
+    "submit": "Ирсоли гузориш",
+    "email_subject": "Гузориши фаврӣ: вайроншавии қоидаҳои WhatsApp",
+    "email_body": "Ҷӯмаи дастгирии WhatsApp,\n\nМан шадидан муштараки рақамеро, ки қоидаҳоро шикастааст, гузориш мекунам. Ин рақам мүмкін аст таҳдид кунад ба дигар корбарон.\n\nЛутфан тафтиш кунед ва чора бинед.",
+    "reported_number": "Рақами ҳисобшуда",
+    "regards": "Бо эҳтиром,\nКорбаре, ки нигарон аст",
+    "reasons": {
+      "gambling": "Рақам бозии ғайриқонуниро тарғиб мекунад ва ба гурӯҳҳои онҳо роҳнамоӣ мекунад.",
+      "murder": "Паёмҳои хушунатангез ва даъват ба қатл паҳн мекунад.",
+      "harassment": "Мазмунҳои номатлуби ҷинсӣ ва озорфиристодан мефиристад.",
+      "spam": "Паёми спамро такрор мекунад ва ба корбарони зиёд мефиристад."
+    }
+  },
+  "lb": {
+    "language_name": "Luxembourgish",
+    "title": "WhatsApp-Nummer mellen",
+    "your_name": "Ären Numm",
+    "number_to_report": "Nummer ze mellen (+62…)",
+    "select_reason": "Ursach auswielen",
+    "submit": "Meldung schécken",
+    "email_subject": "Dréngend Meldung: Verstouss géint WhatsApp Bedéngungen",
+    "email_body": "WhatsApp Support Team,\n\nEch wëll dringend eng schwéier Verstouss géint d'WhatsApp Bedéngungen mellen. Dëst Nummer kéint aner Benotzer geféierlech sinn.\n\nGitt w.e.g. d'Informatiounen eraus a maacht séier Schrëtt.",
+    "reported_number": "Gemellt Nummer",
+    "regards": "Mat Respekt,\nEng besuergten Benotzer",
+    "reasons": {
+      "gambling": "Dëst Nummer fërdert illegal Glécksspill a leet op Glécksspillgruppen.",
+      "murder": "Verbreed gewalttäteg Noriichten déi op Mord opzefuerderen.",
+      "harassment": "Schéckt onpassend sexuell Inhalter an Belästegung.",
+      "spam": "Schéckt Spam messagen erëmholt un vill Benotzer."
+    }
+  },
+  "eo": {
+    "language_name": "Esperanto",
+    "title": "Raporti WhatsApp-numeron",
+    "your_name": "Via nomo",
+    "number_to_report": "Numero por raporti (+62…)",
+    "select_reason": "Elektu rezonon",
+    "submit": "Sendi raporton",
+    "email_subject": "Urgenta raporto: malrespekto de WhatsApp-kondiĉoj",
+    "email_body": "WhatsApp-subtena teamo,\n\nMi volas urĝe raporti numeron kiu peze malobservas la kondiĉojn de servado. Ĉi tiu numero povas reprezenti minacon al aliaj uzantoj.\n\nBonvolu kontroli la informon kaj preni agadon rapide.",
+    "reported_number": "Raportita numero",
+    "regards": "Kun respekto,\nMaltrankvila uzanto",
+    "reasons": {
+      "gambling": "Ĉi tiu numero promocias kontraŭleĝan vetadon kaj direktas al vetado-grupoj.",
+      "murder": "Disvastigas perfortajn mesaĝojn instigantajn al murdo.",
+      "harassment": "Sendas maltaŭgajn seksajn enhavojn kaj molestadon.",
+      "spam": "Ripeteme sendas spamon al multaj uzantoj."
+    }
+  },
+  "ga": {
+    "language_name": "Irish",
+    "title": "Socrú Uimhir WhatsApp",
+    "your_name": "D'ainm",
+    "number_to_report": "Uimhir le tuairisciú (+62…)",
+    "select_reason": "Roghnaigh cúis",
+    "submit": "Seol tuairisc",
+    "email_subject": "Tuairisc práinneach: sárú téarmaí WhatsApp",
+    "email_body": "Foireann tacaíochta WhatsApp,\n\nBa mhaith liom uimhir atá ag sárú téarmaí seirbhíse WhatsApp a thuairisciú láithreach.\n\nDéan seiceáil ar an eolas seo agus fréamh an t‑ghníomh is gá go pras.",
+    "reported_number": "Uimhir tuairiscithe",
+    "regards": "Le meas,\nÚsáideoir imníoch",
+    "reasons": {
+      "gambling": "Tá an uimhir ag déanamh cur chun cinn ar chearrbhachas mídhleathach agus ag treorú chuig grúpaí tadhlaíochta.",
+      "murder": "Scaipeann sé teachtaireachtaí foréigin a spreagann dúnmharú.",
+      "harassment": "Seolann sé ábhar gnéasach mí‑oiriúnach agus foréigean.",
+      "spam": "Seolann sé spam arís is arís eile chuig go leor úsáideoirí."
+    }
+  },
+  "mt": {
+    "language_name": "Maltese",
+    "title": "Irrapporta numru WhatsApp",
+    "your_name": "Isem tiegħek",
+    "number_to_report": "Numru li rrportja (+62…)",
+    "select_reason": "Agħżel raġuni",
+    "submit": "Ibgħat rapport",
+    "email_subject": "Rapport urġenti: ksur tal-kundizzjonijiet ta’ WhatsApp",
+    "email_body": "Tim ta’ appoġġ WhatsApp,\n\nNixtieq nirrapporta immedjatament numru li qed jiksru b’mod gravi t‑termini tas‑servizz.\n\nEżamina d‑data u agħmel l‑azzjoni meħtieġa fl‑istess ħin.",
+    "reported_number": "Numru irrappurtat",
+    "regards": "Tislijiet,\nUtent imħasseb",
+    "reasons": {
+      "gambling": "Dan in-numru qed jippromwovi logħob illegali u jindirizza gruppi ta’ logħob.",
+      "murder": "Tixxerid messaġġi ta’ vjolenza li jippromwovu qtil.",
+      "harassment": "Ibgħat kontenut sesswali mhux xieraq u molesti.",
+      "spam": "Ibgħat spam ripetutament lil ħafna utenti."
+    }
+  },
+  "cy": {
+    "language_name": "Welsh",
+    "title": "Adroddwch Nifer WhatsApp",
+    "your_name": "Eich Enw",
+    "number_to_report": "Rhif i'w Adrodd (+62…)",
+    "select_reason": "Dewis rheswm",
+    "submit": "Anfon Adroddiad",
+    "email_subject": "Adroddiad brys: torri rheolau WhatsApp",
+    "email_body": "Tîm cefnogaeth WhatsApp,\n\nRwyf am adrodd rhif sy'n torri telerau gwasanaeth WhatsApp ar frys.\n\nGwiriwch y manylion hyn a chymryd camau'n syth.",
+    "reported_number": "Rhif Adroddwyd",
+    "regards": "Gyda pharch,\nDefnyddiwr pryderus",
+    "reasons": {
+      "gambling": "Mae'r rhif yn hyrwyddo gamblo anghyfreithlon ac yn anfon at grwpiau gamblo.",
+      "murder": "Yn lledaenu negeseuon lladd yn frawychus.",
+      "harassment": "Yn anfon cynnwys rhywiol amhriodol a bwlio.",
+      "spam": "Yn anfon sbam dro ar ôl tro at ddefnyddwyr."
+    }
+  },
+  "is": {
+    "language_name": "Icelandic",
+    "title": "Tilkynna WhatsApp-númer",
+    "your_name": "Þitt nafn",
+    "number_to_report": "Númer til að tilkynna (+62…)",
+    "select_reason": "Veldu ástæðu",
+    "submit": "Senda tilkynningu",
+    "email_subject": "Brýn tilkynning: brot á skilmálum WhatsApp",
+    "email_body": "WhatsApp stuðningsteymi,\n\nMig langar til að tilkynna númer sem brýtur skilmála þjónustunnar strax.\n\nVinsamlegast skoðið upplýsingarnar og grípið til aðgerða tafarlaust.",
+    "reported_number": "Tilkynnt númer",
+    "regards": "Kær kveðja,\nÁhyggjufullur notandi",
+    "reasons": {
+      "gambling": "Þetta númer hvetur til ólöglegs spilavíti og vísa notendum í veðmálahópa.",
+      "murder": "Dreifir ofbeldisfullum skilaboðum sem hvetja til morðs.",
+      "harassment": "Sendir óviðeigandi kynferðislegt efni og áreitni.",
+      "spam": "Sendir endurtekið ruslpóst til margra notenda."
+    }
+  },
+  "zu": {
+    "language_name": "Zulu",
+    "title": "Bika Inombolo ye‑WhatsApp",
+    "your_name": "Igama lakho",
+    "number_to_report": "Inombolo ebikwayo (+62…)",
+    "select_reason": "Khetha isizathu",
+    "submit": "Thumela Umbiko",
+    "email_subject": "Umbiko Ophuthumayo: ukuphulwa kwemigomo ye‑WhatsApp",
+    "email_body": "Ithimba le‑WhatsApp Support,\n\nNgifuna ukubika inombolo ephula imigomo yesevisi ngokushesha.\n\nNgiyacela uhlole lolu lwazi futhi wenze isenzo esifanele ngokushesha.",
+    "reported_number": "Inombolo ebikwayo",
+    "regards": "Ngokuhlonipha,\nUmsebenzisi okhathazekile",
+    "reasons": {
+      "gambling": "Le nombolo ikhuthaza ukubheja okungekho emthethweni futhi iholele emaqenjini okubheja.",
+      "murder": "Isakaza imilayezo yezinhloso zokubulala.",
+      "harassment": "Ithumela okuqukethwe kocansi okungafanele kanye nokucwasa.",
+      "spam": "Ithumela umyalezo wesimemezelo njalo kubasebenzisi abaningi."
+    }
+  },
+  "xh": {
+    "language_name": "Xhosa",
+    "title": "Bika Inombolo ye‑WhatsApp",
+    "your_name": "Igama lakho",
+    "number_to_report": "Inombolo eziyobikwayo (+62…)",
+    "select_reason": "Khetha isizathu",
+    "submit": "Thumela iMbiko",
+    "email_subject": "iMBIKO ePhuthumayo: ukuphulwa kweMigqaliselo ye‑WhatsApp",
+    "email_body": "Iqela le‑WhatsApp Support,\n\nNdingathanda ukubika inombolo ephula imigqaliselo yesevisi ngokukhawuleza.\n\nNceda ujonge ulwazi kwaye uzithathele amanyathelo ngokukhawuleza.",
+    "reported_number": "Inombolo ebikwayo",
+    "regards": "Ngentlonipho,\nUmsebenzisi onxungupheleyo",
+    "reasons": {
+      "gambling": "Le nombolo ikhuthaza ukungcakaza okungekho mthethweni kwaye ikhokelela kumaqela okugembula.",
+      "murder": "Isasaza imiyalezo engazweliyo yokubulala.",
+      "harassment": "Ithumela umxholo wezocansi ongafanelekanga kunye nokucwasa.",
+      "spam": "Ithumela i-spam rhoqo kubasebenzisi abaninzi."
+    }
+  },
+  "mg": {
+    "language_name": "Malagasy",
+    "title": "Tatitra Nomerao WhatsApp",
+    "your_name": "Anaranao",
+    "number_to_report": "Nomerao tatetika (+62…)",
+    "select_reason": "Safidio antony",
+    "submit": "Alefa tatitra",
+    "email_subject": "Tatitra maika: fandikana fitsipika WhatsApp",
+    "email_body": "Ekipa mpanohana WhatsApp,\n\nTiako hitatitra haingana nomerao mamoaka fandikan-dalàna lehibe momba ny fitsipika fampiasana WhatsApp.\n\nAzafady diniho ny vaovao ary ataovy ny fepetra ilaina avy hatrany.",
+    "reported_number": "Nomerao tatetika",
+    "regards": "Miarahaba,\nMpanjifa manahy",
+    "reasons": {
+      "gambling": "Ity nomerao ity dia mampiroborobo filokana tsy ara-dalàna ary manome rohy amin'ny vondrona filokana.",
+      "murder": "Mampiely hafatra herisetra mamporisika famonoana olona.",
+      "harassment": "Mandefa votoaty mampidi-doza momba ny firaisana sy fanambaniana.",
+      "spam": "Mandefa spam imbetsaka ho an'ny mpampiasa maro."
+    }
+  },
+  "mr": {
+    "language_name": "Marathi",
+    "title": "WhatsApp नंबर अहवाल करा",
+    "your_name": "तुझं नाव",
+    "number_to_report": "अहवालायोग्य नंबर (+62…)",
+    "select_reason": "कारण निवडा",
+    "submit": "अहवाल पाठवा",
+    "email_subject": "तत्काल अहवाल: WhatsApp अटींचा भंग",
+    "email_body": "WhatsApp समर्थन टीम,\n\nमी त्वरित अहवाल देऊ इच्छितो—खालील नंबर जरुरीच्या अटींचा भंग करतो. हा इतर वापरकर्त्यांसाठी धोकादायक ठरू शकतो.\n\nकृपया तपासणी करून त्वरित कारवाई करा.",
+    "reported_number": "अहवालाकर्ता नंबर",
+    "regards": "आदरपूर्वक,\nएका काळजीयुक्त वापरकर्त्याने",
+    "reasons": {
+      "gambling": "हा नंबर बेकायदेशीर जुगाराला प्रोत्साहन देतो आणि ग्रुपमध्ये जोडतो.",
+      "murder": "हा संख्या हत्या करण्याचे प्रोत्साहन देणारे हिंसक संदेश पाठवतो.",
+      "harassment": "अनैतिक लैंगिक सामग्री व छळ करणारे संदेश पाठवतो.",
+      "spam": "ही संख्या अनेक वापरकर्त्यांना वारंवार स्पॅम पाठवते."
+    }
+  },
+  "am": {
+  "language_name": "Amharic",
+  "title": "Report WhatsApp Number",
+  "your_name": "Your Name",
+  "number_to_report": "Number to Report (+62...)",
+  "select_reason": "Select Reason",
+  "submit": "Send Report",
+  "email_subject": "Urgent WhatsApp Abuse Report",
+  "email_body": "Dear WhatsApp Support,\n\nI would like to report a serious violation of WhatsApp’s terms of service. Below are the details of the number that is causing harm to others:",
+  "reported_number": "Reported Number",
+  "regards": "Best regards",
+  "reasons": {
+    "gambling": "Engaging in illegal gambling and promoting gambling groups.",
+    "murder": "Spreading violent threats and promoting murder.",
+    "harassment": "Sexual harassment and sending inappropriate content.",
+    "spam": "Sending spam messages repeatedly to many users."
   }
+ },
+ "ur": {
+  "language_name": "Urdu (Recomend)",
+  "title": "واٹس ایپ صارف کی خلاف ورزی کی اطلاع",
+  "your_name": "آپ کا مکمل نام",
+  "number_to_report": "جس نمبر کی اطلاع دینی ہے (+92...)",
+  "select_reason": "خلاف ورزی کی نوعیت منتخب کریں",
+  "submit": "رپورٹ جمع کروائیں",
+  "email_subject": "اعلیٰ ترجیحی اطلاع: واٹس ایپ ضوابط کی سنگین خلاف ورزی",
+  "email_body": "محترم واٹس ایپ ٹرسٹ اینڈ سیفٹی ٹیم،\n\nمیں ایک ایسے واٹس ایپ صارف کی اطلاع دینا چاہتا/چاہتی ہوں جو پلیٹ فارم کے ضوابط اور استعمال کی شرائط کی کھلی خلاف ورزی کر رہا ہے۔ اس صارف کی سرگرمیوں نے متعدد افراد کو ذہنی و سماجی نقصان پہنچایا ہے اور یہ رویہ پلیٹ فارم کی ساکھ اور صارفین کی سلامتی کے لیے خطرہ بن چکا ہے۔\n\nبراہ کرم درج ذیل تفصیلات کو انتہائی سنجیدگی سے لیتے ہوئے فوری کارروائی کی جائے:\n\n■ شکایت کنندہ کا نام: {your_name}\n■ اطلاع کردہ نمبر: {reported_number}\n■ خلاف ورزی کی قسم: {reason}\n\nمیں اُمید کرتا/کرتی ہوں کہ واٹس ایپ کی پالیسی کے مطابق مناسب اقدامات کیے جائیں گے۔\n\nپیشگی شکریہ۔",
+  "reported_number": "اطلاع کردہ نمبر",
+  "regards": "مخلص،",
+  "reasons": {
+    "gambling": "اس نمبر سے غیر قانونی جوا اور بیٹنگ گروپس کی ترویج کی جا رہی ہے۔ یہ سرگرمی نہ صرف قانون کے خلاف ہے بلکہ سادہ لوح افراد کو مالی نقصان میں مبتلا کرتی ہے۔",
+    "murder": "یہ نمبر قتل، پرتشدد عمل اور خطرناک دھمکیوں سے متعلق پیغامات پھیلا رہا ہے جو کہ عوامی تحفظ کے لیے سنگین خطرہ ہے۔",
+    "harassment": "صارف جنسی ہراسانی، نازیبا زبان اور غیر اخلاقی مواد بھیجنے میں ملوث ہے، جو کہ واٹس ایپ کے ضابطہ اخلاق کے خلاف ہے۔",
+    "spam": "یہ نمبر بار بار بےجا اور پریشان کن پیغامات بہت سے صارفین کو ارسال کر رہا ہے، جو کہ اسپام کے زمرے میں آتا ہے۔"
+  }
+}
 }
